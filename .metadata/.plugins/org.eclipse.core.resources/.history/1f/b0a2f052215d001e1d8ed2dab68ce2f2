@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.scMachineFile org.eventb.core.accurate="true" org.eventb.core.configuration="org.eventb.core.fwd">
+    <org.eventb.core.scSeesContext name="'" org.eventb.core.scTarget="/AnotherBasic01/c0.bcc" org.eventb.core.source="/AnotherBasic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.seesContext#("/>
+    <org.eventb.core.scInternalContext name="c0">
+        <org.eventb.core.scAxiom name="'" org.eventb.core.label="axm1" org.eventb.core.predicate="limit&gt;0" org.eventb.core.source="/AnotherBasic01/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#*" org.eventb.core.theorem="false"/>
+        <org.eventb.core.scCarrierSet name="Person" org.eventb.core.source="/AnotherBasic01/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.carrierSet#(" org.eventb.core.type="ℙ(Person)"/>
+        <org.eventb.core.scConstant name="limit" org.eventb.core.source="/AnotherBasic01/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#)" org.eventb.core.type="ℤ"/>
+        <org.eventb.core.scCarrierSet name="Account" org.eventb.core.source="/AnotherBasic01/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.carrierSet#'" org.eventb.core.type="ℙ(Account)"/>
+    </org.eventb.core.scInternalContext>
+    <org.eventb.core.scInvariant name="c1" org.eventb.core.label="inv1" org.eventb.core.predicate="account⊆Account" org.eventb.core.source="/AnotherBasic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#*" org.eventb.core.theorem="false"/>
+    <org.eventb.core.scVariable name="account" org.eventb.core.abstract="false" org.eventb.core.concrete="true" org.eventb.core.source="/AnotherBasic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.variable#)" org.eventb.core.type="ℙ(Account)"/>
+    <org.eventb.core.scEvent name="accounu" org.eventb.core.accurate="false" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="INITIALISATION" org.eventb.core.source="/AnotherBasic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#'">
+        <org.eventb.core.scAction name="'" org.eventb.core.assignment="account :∣ ⊤" org.eventb.core.label="GEN" org.eventb.core.source="/AnotherBasic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#'"/>
+    </org.eventb.core.scEvent>
+</org.eventb.core.scMachineFile>

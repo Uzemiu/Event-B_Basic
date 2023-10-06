@@ -1,0 +1,791 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<index_root>
+    <pim project="/EventBDemo">
+        <rodin_index>
+            <descriptor element="/EventBDemo/context.buc|org.eventb.core.contextFile#context" name="context">
+                <occurrence element="/EventBDemo/context.buc|org.eventb.core.contextFile#context" kind="org.eventb.core.declaration"/>
+                <occurrence element="/EventBDemo/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.seesContext#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+            </descriptor>
+            <descriptor element="/EventBDemo/mac1.bum|org.eventb.core.machineFile#mac1" name="mac1">
+                <occurrence element="/EventBDemo/mac1.bum|org.eventb.core.machineFile#mac1" kind="org.eventb.core.declaration"/>
+            </descriptor>
+            <descriptor element="/EventBDemo/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.variable#," name="n">
+                <occurrence element="/EventBDemo/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.event#.|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/EventBDemo/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.invariant#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/EventBDemo/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.invariant#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/EventBDemo/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.event#.|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/EventBDemo/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.event#.|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="3" loc_char_start="2"/>
+                <occurrence element="/EventBDemo/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.event#-|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="3" loc_char_start="2"/>
+                <occurrence element="/EventBDemo/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.event#-|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/EventBDemo/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.invariant#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="2"/>
+                <occurrence element="/EventBDemo/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.invariant#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="6"/>
+                <occurrence element="/EventBDemo/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.event#'|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/EventBDemo/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.variable#," kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/EventBDemo/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.event#-|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+            </descriptor>
+            <descriptor element="/EventBDemo/context.buc|org.eventb.core.contextFile#context|org.eventb.core.constant#'" name="d">
+                <occurrence element="/EventBDemo/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.invariant#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="2"/>
+                <occurrence element="/EventBDemo/context.buc|org.eventb.core.contextFile#context|org.eventb.core.axiom#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/EventBDemo/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.event#.|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="2"/>
+                <occurrence element="/EventBDemo/context.buc|org.eventb.core.contextFile#context|org.eventb.core.axiom#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/EventBDemo/context.buc|org.eventb.core.contextFile#context|org.eventb.core.constant#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/EventBDemo/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.invariant#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="8"/>
+            </descriptor>
+            <descriptor element="/EventBDemo/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.event#-" name="ML_in">
+                <occurrence element="/EventBDemo/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.event#-" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+            <descriptor element="/EventBDemo/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.event#." name="ML_out">
+                <occurrence element="/EventBDemo/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.event#." kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+            <descriptor element="/EventBDemo/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.event#'" name="INITIALISATION">
+                <occurrence element="/EventBDemo/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.event#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+        </rodin_index>
+        <export_table>
+            <export file="/EventBDemo/context.buc">
+                <exported element="/EventBDemo/context.buc|org.eventb.core.contextFile#context|org.eventb.core.constant#'" name="d"/>
+                <exported element="/EventBDemo/context.buc|org.eventb.core.contextFile#context" name="context"/>
+            </export>
+            <export file="/EventBDemo/mac1.bum">
+                <exported element="/EventBDemo/mac1.bum|org.eventb.core.machineFile#mac1" name="mac1"/>
+                <exported element="/EventBDemo/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.event#." name="ML_out"/>
+                <exported element="/EventBDemo/context.buc|org.eventb.core.contextFile#context|org.eventb.core.constant#'" name="d"/>
+                <exported element="/EventBDemo/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.event#-" name="ML_in"/>
+                <exported element="/EventBDemo/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.event#'" name="INITIALISATION"/>
+                <exported element="/EventBDemo/context.buc|org.eventb.core.contextFile#context" name="context"/>
+                <exported element="/EventBDemo/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.variable#," name="n"/>
+            </export>
+        </export_table>
+        <graph is_sorted="true">
+            <node label="/EventBDemo/context.buc" mark="false" order_pos="0"/>
+            <node label="/EventBDemo/mac1.bum" mark="false" order_pos="1">
+                <predecessor label="/EventBDemo/context.buc"/>
+            </node>
+        </graph>
+        <unprocessed file="/EventBDemo/context.bcc"/>
+        <unprocessed file="/EventBDemo/context.bpo"/>
+        <unprocessed file="/EventBDemo/context.bpr"/>
+        <unprocessed file="/EventBDemo/context.bps"/>
+        <unprocessed file="/EventBDemo/mac1.bcc"/>
+        <unprocessed file="/EventBDemo/mac1.bpo"/>
+        <unprocessed file="/EventBDemo/mac1.bpr"/>
+        <unprocessed file="/EventBDemo/mac1.bps"/>
+        <unprocessed file="/EventBDemo/mac1.bcm"/>
+    </pim>
+    <pim project="/basic01">
+        <rodin_index>
+            <descriptor element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#;" name="move2">
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#;" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+                <occurrence element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#B|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+            </descriptor>
+            <descriptor element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#)" name="accounts">
+                <occurrence element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#?" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="7"/>
+                <occurrence element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#)" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+            </descriptor>
+            <descriptor element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#," name="owner">
+                <occurrence element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#," kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#," kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+            </descriptor>
+            <descriptor element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#;|org.eventb.core.parameter#." name="t">
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#;|org.eventb.core.action#4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="11" loc_char_start="10"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#;|org.eventb.core.action#3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="11" loc_char_start="10"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#;|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#;|org.eventb.core.guard#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="16" loc_char_start="15"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#;|org.eventb.core.guard#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="29" loc_char_start="28"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#;|org.eventb.core.witness#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="11"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#;|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="16" loc_char_start="15"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#;|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="37" loc_char_start="36"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#;|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="50" loc_char_start="49"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#;|org.eventb.core.witness#0" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="11"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#;|org.eventb.core.action#1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="18" loc_char_start="17"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#;|org.eventb.core.action#2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="11" loc_char_start="10"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#;|org.eventb.core.parameter#." kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+            </descriptor>
+            <descriptor element="/basic01/c1.buc|org.eventb.core.contextFile#c1|org.eventb.core.carrierSet#(" name="Trans">
+                <occurrence element="/basic01/c1.buc|org.eventb.core.contextFile#c1|org.eventb.core.carrierSet#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="8"/>
+            </descriptor>
+            <descriptor element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#4" name="trans">
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#;|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="4"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#9" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="14" loc_char_start="9"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#;|org.eventb.core.action#1" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#8" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="14" loc_char_start="9"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#:|org.eventb.core.guard#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="4"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#=|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="4"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#\/|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#=|org.eventb.core.action#act;" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#4" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#=|org.eventb.core.action#act;" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="13" loc_char_start="8"/>
+                <occurrence element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#4" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#;|org.eventb.core.action#1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="13" loc_char_start="8"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#:|org.eventb.core.action#-" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#:|org.eventb.core.action#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="13" loc_char_start="8"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#?" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="14" loc_char_start="9"/>
+            </descriptor>
+            <descriptor element="/basic01/m1.bum|org.eventb.core.machineFile#m1" name="m1">
+                <occurrence element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.refinesMachine#@" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1" kind="org.eventb.core.declaration"/>
+            </descriptor>
+            <descriptor element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#:|org.eventb.core.parameter#(" name="b">
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#:|org.eventb.core.guard#0" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="8"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#:|org.eventb.core.parameter#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#:|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#:|org.eventb.core.action#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="13" loc_char_start="12"/>
+                <occurrence element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#C|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="18" loc_char_start="17"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#:|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#C|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="25" loc_char_start="24"/>
+            </descriptor>
+            <descriptor element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.variable#." name="balance">
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.variable#." kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#0|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="23" loc_char_start="16"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#+|org.eventb.core.action#." kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#1|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#2|org.eventb.core.action#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#1|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="20" loc_char_start="13"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#2|org.eventb.core.action#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="20" loc_char_start="13"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#." kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#1|org.eventb.core.action#+" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#2|org.eventb.core.action#*" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#0|org.eventb.core.action#+" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#+|org.eventb.core.action#." kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#0|org.eventb.core.guard#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#1|org.eventb.core.guard#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#2|org.eventb.core.guard#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#'|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+            </descriptor>
+            <descriptor element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#8" name="INITIALISATION">
+                <occurrence element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#8" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+            <descriptor element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#'" name="INITIALISATION">
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#\/" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+            <descriptor element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#1" name="deposit">
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#1" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#;|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#=|org.eventb.core.refinesEvent#act7" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#2|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+            </descriptor>
+            <descriptor element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#&gt;" name="type">
+                <occurrence element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="4" loc_char_start="0"/>
+                <occurrence element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="4" loc_char_start="0"/>
+                <occurrence element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#:|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="4" loc_char_start="0"/>
+                <occurrence element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#:|org.eventb.core.action#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="17" loc_char_start="13"/>
+                <occurrence element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#&gt;" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#?" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+                <occurrence element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#C|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="23" loc_char_start="19"/>
+                <occurrence element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#C|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+                <occurrence element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#8|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="4" loc_char_start="0"/>
+            </descriptor>
+            <descriptor element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#=" name="refund">
+                <occurrence element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#E|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#=" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+            <descriptor element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#." name="balance">
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#;|org.eventb.core.action#+" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#=|org.eventb.core.action#+" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#=|org.eventb.core.guard#act?" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#=|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#=|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="28" loc_char_start="21"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#:|org.eventb.core.guard#0" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#;|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#;|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="28" loc_char_start="21"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#;|org.eventb.core.guard#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#." kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#." kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#=|org.eventb.core.guard#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
+            </descriptor>
+            <descriptor element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#7" name="qtrans">
+                <occurrence element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#7" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+            </descriptor>
+            <descriptor element="/basic01/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#)" name="MAX">
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#1|org.eventb.core.guard#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="20" loc_char_start="17"/>
+                <occurrence element="/basic01/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#)" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="26" loc_char_start="23"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#;|org.eventb.core.guard#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="36" loc_char_start="33"/>
+                <occurrence element="/basic01/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="0"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#:|org.eventb.core.guard#0" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="20" loc_char_start="17"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#=|org.eventb.core.guard#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="36" loc_char_start="33"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#=|org.eventb.core.guard#act?" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="36" loc_char_start="33"/>
+            </descriptor>
+            <descriptor element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#6" name="atrans">
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#;|org.eventb.core.witness#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="4"/>
+                <occurrence element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#6" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#;|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="14" loc_char_start="8"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#;|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="35" loc_char_start="29"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#\/|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="6" loc_char_start="0"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#=|org.eventb.core.action#act=" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="6" loc_char_start="0"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#;|org.eventb.core.guard#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="14" loc_char_start="8"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#;|org.eventb.core.action#2" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="6" loc_char_start="0"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#=|org.eventb.core.guard#act?" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="14" loc_char_start="8"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#1|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="14" loc_char_start="8"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#=|org.eventb.core.action#act=" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="21" loc_char_start="15"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#:|org.eventb.core.action#\/" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="6" loc_char_start="0"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#;|org.eventb.core.action#2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="21" loc_char_start="15"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#8" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="0"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#:|org.eventb.core.action#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="6" loc_char_start="0"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#6" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+            </descriptor>
+            <descriptor element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#\/" name="INITIALISATION">
+                <occurrence element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#8" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.label"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#\/" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+            <descriptor element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#=" name="withdraw">
+                <occurrence element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#=" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+            <descriptor element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#." name="balance">
+                <occurrence element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#." kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+            </descriptor>
+            <descriptor element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#0" name="closeAccount">
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#1|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#0" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+            <descriptor element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#&gt;" name="ftrans">
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#=|org.eventb.core.action#act&gt;" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="21" loc_char_start="15"/>
+                <occurrence element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#D" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#\/|org.eventb.core.action#*" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="6" loc_char_start="0"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#=|org.eventb.core.guard#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="14" loc_char_start="8"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#=|org.eventb.core.action#act&gt;" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="6" loc_char_start="0"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#1|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="14" loc_char_start="8"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#=|org.eventb.core.witness#act8" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="4"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#&gt;" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#;|org.eventb.core.action#4" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="6" loc_char_start="0"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#;|org.eventb.core.action#4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="21" loc_char_start="15"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#:|org.eventb.core.action#1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="6" loc_char_start="0"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#?" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="0"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#:|org.eventb.core.action#1" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="6" loc_char_start="0"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#=|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="14" loc_char_start="8"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#=|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="35" loc_char_start="29"/>
+            </descriptor>
+            <descriptor element="/basic01/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.carrierSet#(" name="People">
+                <occurrence element="/basic01/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.carrierSet#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="25" loc_char_start="19"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#+|org.eventb.core.guard#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="4"/>
+            </descriptor>
+            <descriptor element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#7" name="qtrans">
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#;|org.eventb.core.action#3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="21" loc_char_start="15"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#=|org.eventb.core.action#act:" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="21" loc_char_start="15"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#9" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="0"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#:|org.eventb.core.action#." kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="6" loc_char_start="0"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#:|org.eventb.core.action#." kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="6" loc_char_start="0"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#=|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="48" loc_char_start="42"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#;|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="48" loc_char_start="42"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#=|org.eventb.core.witness#act9" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="4"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#;|org.eventb.core.action#3" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="6" loc_char_start="0"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#\/|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="6" loc_char_start="0"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#;|org.eventb.core.guard#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="27" loc_char_start="21"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#=|org.eventb.core.guard#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="27" loc_char_start="21"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#;|org.eventb.core.witness#0" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="4"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#7" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#=|org.eventb.core.guard#act?" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="27" loc_char_start="21"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#=|org.eventb.core.action#act:" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="6" loc_char_start="0"/>
+                <occurrence element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#7" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+            </descriptor>
+            <descriptor element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#E" name="refund">
+                <occurrence element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#E" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+            <descriptor element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.variable#)" name="accounts">
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="18" loc_char_start="10"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#1|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="4"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#2|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="4"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="16" loc_char_start="8"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#0|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="4"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#+|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="19" loc_char_start="11"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#0|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="19" loc_char_start="11"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#+|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="4"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="8" loc_char_start="0"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#+|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="8" loc_char_start="0"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#'|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="8" loc_char_start="0"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.variable#)" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#)" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#0|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="8" loc_char_start="0"/>
+            </descriptor>
+            <descriptor element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#6" name="atrans">
+                <occurrence element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#6" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+            </descriptor>
+            <descriptor element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#+|org.eventb.core.parameter#+" name="p">
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#+|org.eventb.core.parameter#+" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#+|org.eventb.core.action#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="12" loc_char_start="11"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#+|org.eventb.core.guard#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+            </descriptor>
+            <descriptor element="/basic01/c2.buc|org.eventb.core.contextFile#c2" name="c2">
+                <occurrence element="/basic01/c2.buc|org.eventb.core.contextFile#c2" kind="org.eventb.core.declaration"/>
+                <occurrence element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.seesContext#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+            </descriptor>
+            <descriptor element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#=|org.eventb.core.parameter#'" name="t">
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#=|org.eventb.core.witness#act8" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="11"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#=|org.eventb.core.witness#act9" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="11"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#=|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="16" loc_char_start="15"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#=|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="37" loc_char_start="36"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#=|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="50" loc_char_start="49"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#=|org.eventb.core.action#act=" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="11" loc_char_start="10"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#=|org.eventb.core.action#act&gt;" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="11" loc_char_start="10"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#=|org.eventb.core.guard#act?" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="16" loc_char_start="15"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#=|org.eventb.core.guard#act?" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="29" loc_char_start="28"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#=|org.eventb.core.parameter#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#=|org.eventb.core.action#act:" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="11" loc_char_start="10"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#=|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#=|org.eventb.core.guard#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="29" loc_char_start="28"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#=|org.eventb.core.guard#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="16" loc_char_start="15"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#=|org.eventb.core.action#act;" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="18" loc_char_start="17"/>
+            </descriptor>
+            <descriptor element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#0" name="openAccount">
+                <occurrence element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#0" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+            <descriptor element="/basic01/m2.bum|org.eventb.core.machineFile#m2" name="m2">
+                <occurrence element="/basic01/m2.bum|org.eventb.core.machineFile#m2" kind="org.eventb.core.declaration"/>
+            </descriptor>
+            <descriptor element="/basic01/c2.buc|org.eventb.core.contextFile#c2|org.eventb.core.constant#)" name="normal">
+                <occurrence element="/basic01/c2.buc|org.eventb.core.contextFile#c2|org.eventb.core.constant#)" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/basic01/c2.buc|org.eventb.core.contextFile#c2|org.eventb.core.axiom#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="21" loc_char_start="15"/>
+                <occurrence element="/basic01/c2.buc|org.eventb.core.contextFile#c2|org.eventb.core.axiom#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="0"/>
+                <occurrence element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#C|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="16" loc_char_start="10"/>
+            </descriptor>
+            <descriptor element="/basic01/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.carrierSet#'" name="Accounts">
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#+|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="4"/>
+                <occurrence element="/basic01/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.carrierSet#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="19" loc_char_start="11"/>
+            </descriptor>
+            <descriptor element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#1|org.eventb.core.parameter#(" name="q">
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#1|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#=|org.eventb.core.witness#act9" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#1|org.eventb.core.guard#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="14" loc_char_start="13"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#1|org.eventb.core.parameter#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#;|org.eventb.core.witness#0" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#=|org.eventb.core.witness#act9" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.label"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#;|org.eventb.core.witness#0" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.label"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#1|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="27" loc_char_start="26"/>
+            </descriptor>
+            <descriptor element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#2|org.eventb.core.parameter#'" name="a">
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#2|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#2|org.eventb.core.guard#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="8"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#:|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#2|org.eventb.core.parameter#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#:|org.eventb.core.action#1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="13" loc_char_start="12"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#2|org.eventb.core.action#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="9" loc_char_start="8"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#2|org.eventb.core.action#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="22" loc_char_start="21"/>
+            </descriptor>
+            <descriptor element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.variable#," name="owner">
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#0|org.eventb.core.action#*" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#0|org.eventb.core.action#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="19" loc_char_start="14"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#+|org.eventb.core.action#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#'|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#," kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#+|org.eventb.core.action#-" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.variable#," kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+            </descriptor>
+            <descriptor element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#)" name="accounts">
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#8" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="25" loc_char_start="17"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#)" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#?" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="25" loc_char_start="17"/>
+                <occurrence element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#)" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#:|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="4"/>
+            </descriptor>
+            <descriptor element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#:|org.eventb.core.parameter#+" name="t">
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#:|org.eventb.core.action#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="18" loc_char_start="17"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#:|org.eventb.core.action#." kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="8" loc_char_start="7"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#:|org.eventb.core.action#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="8" loc_char_start="7"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#:|org.eventb.core.parameter#+" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#:|org.eventb.core.guard#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#:|org.eventb.core.action#1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="8" loc_char_start="7"/>
+            </descriptor>
+            <descriptor element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#D" name="ftrans">
+                <occurrence element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#D" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+            </descriptor>
+            <descriptor element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#2" name="withdraw">
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#:|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#3|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#2" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+            <descriptor element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#1" name="closeAccount">
+                <occurrence element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#:|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#1" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+            <descriptor element="/basic01/c1.buc|org.eventb.core.contextFile#c1" name="c1">
+                <occurrence element="/basic01/c2.buc|org.eventb.core.contextFile#c2|org.eventb.core.extendsContext#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+                <occurrence element="/basic01/c1.buc|org.eventb.core.contextFile#c1" kind="org.eventb.core.declaration"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.seesContext#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+            </descriptor>
+            <descriptor element="/basic01/c2.buc|org.eventb.core.contextFile#c2|org.eventb.core.carrierSet#(" name="AccountType">
+                <occurrence element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="4"/>
+                <occurrence element="/basic01/c2.buc|org.eventb.core.contextFile#c2|org.eventb.core.axiom#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="0"/>
+                <occurrence element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#?" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="29" loc_char_start="18"/>
+                <occurrence element="/basic01/c2.buc|org.eventb.core.contextFile#c2|org.eventb.core.carrierSet#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+            </descriptor>
+            <descriptor element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#;" name="deposit">
+                <occurrence element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#;" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+            <descriptor element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#," name="owner">
+                <occurrence element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#," kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#C|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+                <occurrence element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#C|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="16" loc_char_start="11"/>
+            </descriptor>
+            <descriptor element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#+" name="openAccount">
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#+" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#0|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+            </descriptor>
+            <descriptor element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9|org.eventb.core.parameter#(" name="t">
+                <occurrence element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9|org.eventb.core.parameter#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="11" loc_char_start="10"/>
+                <occurrence element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+            </descriptor>
+            <descriptor element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#0|org.eventb.core.parameter#(" name="a">
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#0|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#0|org.eventb.core.guard#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="8"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#0|org.eventb.core.parameter#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#0|org.eventb.core.action#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="10" loc_char_start="9"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#0|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="24" loc_char_start="23"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#0|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="12" loc_char_start="11"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#1|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#1|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+            </descriptor>
+            <descriptor element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#1|org.eventb.core.parameter#'" name="a">
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#1|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#=|org.eventb.core.witness#act8" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#1|org.eventb.core.guard#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="8"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#;|org.eventb.core.witness#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#=|org.eventb.core.witness#act8" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.label"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#1|org.eventb.core.parameter#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#1|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="9" loc_char_start="8"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#;|org.eventb.core.witness#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.label"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#1|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="22" loc_char_start="21"/>
+            </descriptor>
+            <descriptor element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#C" name="save">
+                <occurrence element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#C" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+            <descriptor element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#4" name="trans">
+                <occurrence element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#4" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+            </descriptor>
+            <descriptor element="/basic01/c0.buc|org.eventb.core.contextFile#c0" name="c0">
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.seesContext#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+                <occurrence element="/basic01/c0.buc|org.eventb.core.contextFile#c0" kind="org.eventb.core.declaration"/>
+                <occurrence element="/basic01/c1.buc|org.eventb.core.contextFile#c1|org.eventb.core.extendsContext#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+            </descriptor>
+            <descriptor element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#+|org.eventb.core.parameter#(" name="a">
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#+|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#+|org.eventb.core.parameter#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#+|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#+|org.eventb.core.action#." kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="9" loc_char_start="8"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#+|org.eventb.core.action#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="6"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#+|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="24" loc_char_start="23"/>
+            </descriptor>
+            <descriptor element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#2" name="deposit">
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#2" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+                <occurrence element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#;|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+            </descriptor>
+            <descriptor element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#:" name="closeAccount">
+                <occurrence element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#:" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+            <descriptor element="/basic01/m0.bum|org.eventb.core.machineFile#m0" name="m0">
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.refinesMachine#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0" kind="org.eventb.core.declaration"/>
+            </descriptor>
+            <descriptor element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#:" name="move1">
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#:" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+                <occurrence element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#C|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+                <occurrence element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#A|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+            </descriptor>
+            <descriptor element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#B" name="move2">
+                <occurrence element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#B" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+            <descriptor element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9" name="openAccount">
+                <occurrence element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+            <descriptor element="/basic01/c2.buc|org.eventb.core.contextFile#c2|org.eventb.core.constant#*" name="saving">
+                <occurrence element="/basic01/c2.buc|org.eventb.core.contextFile#c2|org.eventb.core.constant#*" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#C|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="35" loc_char_start="29"/>
+                <occurrence element="/basic01/c2.buc|org.eventb.core.contextFile#c2|org.eventb.core.axiom#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="9"/>
+                <occurrence element="/basic01/c2.buc|org.eventb.core.contextFile#c2|org.eventb.core.axiom#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="29" loc_char_start="23"/>
+            </descriptor>
+            <descriptor element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#2|org.eventb.core.parameter#(" name="q">
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#2|org.eventb.core.guard#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#2|org.eventb.core.guard#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="14" loc_char_start="13"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#:|org.eventb.core.guard#0" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="14" loc_char_start="13"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#2|org.eventb.core.parameter#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#2|org.eventb.core.action#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="27" loc_char_start="26"/>
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#:|org.eventb.core.action#." kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="13" loc_char_start="12"/>
+            </descriptor>
+            <descriptor element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#3" name="withdraw">
+                <occurrence element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#3" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+                <occurrence element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#=|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+            </descriptor>
+            <descriptor element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#A" name="move1">
+                <occurrence element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#A" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+        </rodin_index>
+        <export_table>
+            <export file="/basic01/m2.bum">
+                <exported element="/basic01/m0.bum|org.eventb.core.machineFile#m0" name="m0"/>
+                <exported element="/basic01/c1.buc|org.eventb.core.contextFile#c1|org.eventb.core.carrierSet#(" name="Trans"/>
+                <exported element="/basic01/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#)" name="MAX"/>
+                <exported element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#B" name="move2"/>
+                <exported element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#)" name="accounts"/>
+                <exported element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#;" name="deposit"/>
+                <exported element="/basic01/c2.buc|org.eventb.core.contextFile#c2|org.eventb.core.carrierSet#(" name="AccountType"/>
+                <exported element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#&gt;" name="type"/>
+                <exported element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#=" name="withdraw"/>
+                <exported element="/basic01/c2.buc|org.eventb.core.contextFile#c2|org.eventb.core.constant#*" name="saving"/>
+                <exported element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#6" name="atrans"/>
+                <exported element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#D" name="ftrans"/>
+                <exported element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#C" name="save"/>
+                <exported element="/basic01/m2.bum|org.eventb.core.machineFile#m2" name="m2"/>
+                <exported element="/basic01/c0.buc|org.eventb.core.contextFile#c0" name="c0"/>
+                <exported element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#8" name="INITIALISATION"/>
+                <exported element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9|org.eventb.core.parameter#(" name="t"/>
+                <exported element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#," name="owner"/>
+                <exported element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#:" name="closeAccount"/>
+                <exported element="/basic01/c2.buc|org.eventb.core.contextFile#c2" name="c2"/>
+                <exported element="/basic01/m1.bum|org.eventb.core.machineFile#m1" name="m1"/>
+                <exported element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#." name="balance"/>
+                <exported element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9" name="openAccount"/>
+                <exported element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#4" name="trans"/>
+                <exported element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#A" name="move1"/>
+                <exported element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#E" name="refund"/>
+                <exported element="/basic01/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.carrierSet#'" name="Accounts"/>
+                <exported element="/basic01/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.carrierSet#(" name="People"/>
+                <exported element="/basic01/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#7" name="qtrans"/>
+                <exported element="/basic01/c2.buc|org.eventb.core.contextFile#c2|org.eventb.core.constant#)" name="normal"/>
+                <exported element="/basic01/c1.buc|org.eventb.core.contextFile#c1" name="c1"/>
+            </export>
+            <export file="/basic01/m1.bum">
+                <exported element="/basic01/m0.bum|org.eventb.core.machineFile#m0" name="m0"/>
+                <exported element="/basic01/c1.buc|org.eventb.core.contextFile#c1|org.eventb.core.carrierSet#(" name="Trans"/>
+                <exported element="/basic01/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#)" name="MAX"/>
+                <exported element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#." name="balance"/>
+                <exported element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#=|org.eventb.core.parameter#'" name="t"/>
+                <exported element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#&gt;" name="ftrans"/>
+                <exported element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#;" name="move2"/>
+                <exported element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#=" name="refund"/>
+                <exported element="/basic01/c0.buc|org.eventb.core.contextFile#c0" name="c0"/>
+                <exported element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#3" name="withdraw"/>
+                <exported element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#7" name="qtrans"/>
+                <exported element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#2" name="deposit"/>
+                <exported element="/basic01/m1.bum|org.eventb.core.machineFile#m1" name="m1"/>
+                <exported element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#)" name="accounts"/>
+                <exported element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#4" name="trans"/>
+                <exported element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#6" name="atrans"/>
+                <exported element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#;|org.eventb.core.parameter#." name="t"/>
+                <exported element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#0" name="openAccount"/>
+                <exported element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#\/" name="INITIALISATION"/>
+                <exported element="/basic01/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.carrierSet#'" name="Accounts"/>
+                <exported element="/basic01/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.carrierSet#(" name="People"/>
+                <exported element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#:|org.eventb.core.parameter#(" name="b"/>
+                <exported element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#:" name="move1"/>
+                <exported element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#," name="owner"/>
+                <exported element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#1" name="closeAccount"/>
+                <exported element="/basic01/c1.buc|org.eventb.core.contextFile#c1" name="c1"/>
+                <exported element="/basic01/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#:|org.eventb.core.parameter#+" name="t"/>
+            </export>
+            <export file="/basic01/m0.bum">
+                <exported element="/basic01/m0.bum|org.eventb.core.machineFile#m0" name="m0"/>
+                <exported element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#'" name="INITIALISATION"/>
+                <exported element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#2" name="withdraw"/>
+                <exported element="/basic01/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#)" name="MAX"/>
+                <exported element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#1|org.eventb.core.parameter#(" name="q"/>
+                <exported element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#0|org.eventb.core.parameter#(" name="a"/>
+                <exported element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#1|org.eventb.core.parameter#'" name="a"/>
+                <exported element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.variable#." name="balance"/>
+                <exported element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#0" name="closeAccount"/>
+                <exported element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#1" name="deposit"/>
+                <exported element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.variable#," name="owner"/>
+                <exported element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.variable#)" name="accounts"/>
+                <exported element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#2|org.eventb.core.parameter#'" name="a"/>
+                <exported element="/basic01/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.carrierSet#'" name="Accounts"/>
+                <exported element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#2|org.eventb.core.parameter#(" name="q"/>
+                <exported element="/basic01/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.carrierSet#(" name="People"/>
+                <exported element="/basic01/c0.buc|org.eventb.core.contextFile#c0" name="c0"/>
+                <exported element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#+|org.eventb.core.parameter#+" name="p"/>
+                <exported element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#+" name="openAccount"/>
+                <exported element="/basic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#+|org.eventb.core.parameter#(" name="a"/>
+            </export>
+            <export file="/basic01/c2.buc">
+                <exported element="/basic01/c1.buc|org.eventb.core.contextFile#c1|org.eventb.core.carrierSet#(" name="Trans"/>
+                <exported element="/basic01/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#)" name="MAX"/>
+                <exported element="/basic01/c2.buc|org.eventb.core.contextFile#c2|org.eventb.core.carrierSet#(" name="AccountType"/>
+                <exported element="/basic01/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.carrierSet#'" name="Accounts"/>
+                <exported element="/basic01/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.carrierSet#(" name="People"/>
+                <exported element="/basic01/c2.buc|org.eventb.core.contextFile#c2|org.eventb.core.constant#)" name="normal"/>
+                <exported element="/basic01/c0.buc|org.eventb.core.contextFile#c0" name="c0"/>
+                <exported element="/basic01/c2.buc|org.eventb.core.contextFile#c2|org.eventb.core.constant#*" name="saving"/>
+                <exported element="/basic01/c1.buc|org.eventb.core.contextFile#c1" name="c1"/>
+                <exported element="/basic01/c2.buc|org.eventb.core.contextFile#c2" name="c2"/>
+            </export>
+            <export file="/basic01/c0.buc">
+                <exported element="/basic01/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#)" name="MAX"/>
+                <exported element="/basic01/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.carrierSet#'" name="Accounts"/>
+                <exported element="/basic01/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.carrierSet#(" name="People"/>
+                <exported element="/basic01/c0.buc|org.eventb.core.contextFile#c0" name="c0"/>
+            </export>
+            <export file="/basic01/c1.buc">
+                <exported element="/basic01/c1.buc|org.eventb.core.contextFile#c1|org.eventb.core.carrierSet#(" name="Trans"/>
+                <exported element="/basic01/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#)" name="MAX"/>
+                <exported element="/basic01/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.carrierSet#'" name="Accounts"/>
+                <exported element="/basic01/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.carrierSet#(" name="People"/>
+                <exported element="/basic01/c0.buc|org.eventb.core.contextFile#c0" name="c0"/>
+                <exported element="/basic01/c1.buc|org.eventb.core.contextFile#c1" name="c1"/>
+            </export>
+        </export_table>
+        <graph is_sorted="true">
+            <node label="/basic01/c0.buc" mark="false" order_pos="0"/>
+            <node label="/basic01/c1.buc" mark="false" order_pos="1">
+                <predecessor label="/basic01/c0.buc"/>
+            </node>
+            <node label="/basic01/m0.bum" mark="false" order_pos="2">
+                <predecessor label="/basic01/c0.buc"/>
+            </node>
+            <node label="/basic01/c2.buc" mark="false" order_pos="3">
+                <predecessor label="/basic01/c1.buc"/>
+            </node>
+            <node label="/basic01/m1.bum" mark="false" order_pos="4">
+                <predecessor label="/basic01/m0.bum"/>
+                <predecessor label="/basic01/c1.buc"/>
+            </node>
+            <node label="/basic01/m2.bum" mark="false" order_pos="5">
+                <predecessor label="/basic01/m1.bum"/>
+                <predecessor label="/basic01/c2.buc"/>
+            </node>
+        </graph>
+        <unprocessed file="/basic01/c0.bcc"/>
+        <unprocessed file="/basic01/c0.bpo"/>
+        <unprocessed file="/basic01/c0.bpr"/>
+        <unprocessed file="/basic01/c0.bps"/>
+        <unprocessed file="/basic01/c1.bcc"/>
+        <unprocessed file="/basic01/c1.bpo"/>
+        <unprocessed file="/basic01/c1.bpr"/>
+        <unprocessed file="/basic01/c1.bps"/>
+        <unprocessed file="/basic01/c2.bcc"/>
+        <unprocessed file="/basic01/c2.bpo"/>
+        <unprocessed file="/basic01/c2.bpr"/>
+        <unprocessed file="/basic01/c2.bps"/>
+        <unprocessed file="/basic01/m0.bcm"/>
+        <unprocessed file="/basic01/m0.bpo"/>
+        <unprocessed file="/basic01/m0.bpr"/>
+        <unprocessed file="/basic01/m0.bps"/>
+        <unprocessed file="/basic01/m1.bcm"/>
+        <unprocessed file="/basic01/m1.bpo"/>
+        <unprocessed file="/basic01/m1.bpr"/>
+        <unprocessed file="/basic01/m1.bps"/>
+        <unprocessed file="/basic01/m2.bcm"/>
+        <unprocessed file="/basic01/m2.bpo"/>
+        <unprocessed file="/basic01/m2.bpr"/>
+        <unprocessed file="/basic01/m2.bps"/>
+        <unprocessed file="/basic01/m3.bpr"/>
+        <unprocessed file="/basic01/m2.bpo_tmp"/>
+    </pim>
+    <pim project="/AnotherBasic01">
+        <rodin_index>
+            <descriptor element="/AnotherBasic01/c0.buc|org.eventb.core.contextFile#c0" name="c0">
+                <occurrence element="/AnotherBasic01/c0.buc|org.eventb.core.contextFile#c0" kind="org.eventb.core.declaration"/>
+                <occurrence element="/AnotherBasic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.seesContext#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+            </descriptor>
+            <descriptor element="/AnotherBasic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.variable#-" name="owner">
+                <occurrence element="/AnotherBasic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#." kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+                <occurrence element="/AnotherBasic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#'|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+                <occurrence element="/AnotherBasic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.variable#-" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/AnotherBasic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#\/|org.eventb.core.action#*" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+                <occurrence element="/AnotherBasic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#\/|org.eventb.core.action#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="13" loc_char_start="8"/>
+            </descriptor>
+            <descriptor element="/AnotherBasic01/m0.bum|org.eventb.core.machineFile#m0" name="m0">
+                <occurrence element="/AnotherBasic01/m0.bum|org.eventb.core.machineFile#m0" kind="org.eventb.core.declaration"/>
+            </descriptor>
+            <descriptor element="/AnotherBasic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#\/" name="open">
+                <occurrence element="/AnotherBasic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#\/" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+            <descriptor element="/AnotherBasic01/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.carrierSet#(" name="Person">
+                <occurrence element="/AnotherBasic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#\/|org.eventb.core.guard#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="4"/>
+                <occurrence element="/AnotherBasic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#." kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="24" loc_char_start="18"/>
+                <occurrence element="/AnotherBasic01/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.carrierSet#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+            </descriptor>
+            <descriptor element="/AnotherBasic01/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.carrierSet#'" name="Account">
+                <occurrence element="/AnotherBasic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#\/|org.eventb.core.guard#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="4"/>
+                <occurrence element="/AnotherBasic01/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.carrierSet#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/AnotherBasic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="17" loc_char_start="10"/>
+            </descriptor>
+            <descriptor element="/AnotherBasic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.variable#)" name="account">
+                <occurrence element="/AnotherBasic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#\/|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+                <occurrence element="/AnotherBasic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#'|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+                <occurrence element="/AnotherBasic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#\/|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="17" loc_char_start="10"/>
+                <occurrence element="/AnotherBasic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#." kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="8"/>
+                <occurrence element="/AnotherBasic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="17" loc_char_start="10"/>
+                <occurrence element="/AnotherBasic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
+                <occurrence element="/AnotherBasic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.variable#)" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/AnotherBasic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#\/|org.eventb.core.guard#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="4"/>
+            </descriptor>
+            <descriptor element="/AnotherBasic01/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#)" name="limit">
+                <occurrence element="/AnotherBasic01/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#)" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/AnotherBasic01/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+                <occurrence element="/AnotherBasic01/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="17" loc_char_start="12"/>
+                <occurrence element="/AnotherBasic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="27" loc_char_start="22"/>
+            </descriptor>
+            <descriptor element="/AnotherBasic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.variable#+" name="balance">
+                <occurrence element="/AnotherBasic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
+                <occurrence element="/AnotherBasic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#'|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+                <occurrence element="/AnotherBasic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.variable#+" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+            </descriptor>
+            <descriptor element="/AnotherBasic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#\/|org.eventb.core.parameter#'" name="a">
+                <occurrence element="/AnotherBasic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#\/|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="23" loc_char_start="22"/>
+                <occurrence element="/AnotherBasic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#\/|org.eventb.core.guard#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/AnotherBasic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#\/|org.eventb.core.guard#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/AnotherBasic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#\/|org.eventb.core.action#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="19" loc_char_start="18"/>
+                <occurrence element="/AnotherBasic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#\/|org.eventb.core.parameter#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+            </descriptor>
+            <descriptor element="/AnotherBasic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#'" name="INITIALISATION">
+                <occurrence element="/AnotherBasic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+            <descriptor element="/AnotherBasic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#\/|org.eventb.core.parameter#(" name="p">
+                <occurrence element="/AnotherBasic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#\/|org.eventb.core.action#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="23" loc_char_start="22"/>
+                <occurrence element="/AnotherBasic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#\/|org.eventb.core.guard#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/AnotherBasic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#\/|org.eventb.core.parameter#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+            </descriptor>
+        </rodin_index>
+        <export_table>
+            <export file="/AnotherBasic01/m0.bum">
+                <exported element="/AnotherBasic01/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#)" name="limit"/>
+                <exported element="/AnotherBasic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#\/|org.eventb.core.parameter#'" name="a"/>
+                <exported element="/AnotherBasic01/c0.buc|org.eventb.core.contextFile#c0" name="c0"/>
+                <exported element="/AnotherBasic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#\/" name="open"/>
+                <exported element="/AnotherBasic01/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.carrierSet#'" name="Account"/>
+                <exported element="/AnotherBasic01/m0.bum|org.eventb.core.machineFile#m0" name="m0"/>
+                <exported element="/AnotherBasic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.variable#-" name="owner"/>
+                <exported element="/AnotherBasic01/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.carrierSet#(" name="Person"/>
+                <exported element="/AnotherBasic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#'" name="INITIALISATION"/>
+                <exported element="/AnotherBasic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.variable#)" name="account"/>
+                <exported element="/AnotherBasic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.variable#+" name="balance"/>
+                <exported element="/AnotherBasic01/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#\/|org.eventb.core.parameter#(" name="p"/>
+            </export>
+            <export file="/AnotherBasic01/c0.buc">
+                <exported element="/AnotherBasic01/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#)" name="limit"/>
+                <exported element="/AnotherBasic01/c0.buc|org.eventb.core.contextFile#c0" name="c0"/>
+                <exported element="/AnotherBasic01/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.carrierSet#'" name="Account"/>
+                <exported element="/AnotherBasic01/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.carrierSet#(" name="Person"/>
+            </export>
+        </export_table>
+        <graph is_sorted="true">
+            <node label="/AnotherBasic01/c0.buc" mark="false" order_pos="0"/>
+            <node label="/AnotherBasic01/m0.bum" mark="false" order_pos="1">
+                <predecessor label="/AnotherBasic01/c0.buc"/>
+            </node>
+        </graph>
+        <unprocessed file="/AnotherBasic01/c0.bcc"/>
+        <unprocessed file="/AnotherBasic01/c0.bpo"/>
+        <unprocessed file="/AnotherBasic01/c0.bpr"/>
+        <unprocessed file="/AnotherBasic01/c0.bps"/>
+        <unprocessed file="/AnotherBasic01/m0.bcm"/>
+        <unprocessed file="/AnotherBasic01/m0.bpo"/>
+        <unprocessed file="/AnotherBasic01/m0.bpr"/>
+        <unprocessed file="/AnotherBasic01/m0.bps"/>
+    </pim>
+    <delta_list/>
+    <indexer_registry>
+        <registry_entry element_type="org.eventb.core.machineFile">
+            <indexer id="machineIndexer"/>
+        </registry_entry>
+        <registry_entry element_type="org.eventb.core.contextFile">
+            <indexer id="contextIndexer"/>
+        </registry_entry>
+    </indexer_registry>
+</index_root>

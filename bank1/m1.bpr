@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.prFile version="1">
+<org.eventb.core.prProof name="INITIALISATION/inv2/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="" org.eventb.core.prSets="A,T">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p1">
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="⊤ goal" org.eventb.core.prGoal="p1" org.eventb.core.prHyps=""/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="⊤"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="(∅ ⦂ ℙ(T×A))∈(∅ ⦂ ℙ(T)) → (∅ ⦂ ℙ(A))"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.trueGoal"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="INITIALISATION/inv3/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="" org.eventb.core.prSets="T">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p1">
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="⊤ goal" org.eventb.core.prGoal="p1" org.eventb.core.prHyps=""/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="⊤"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="(∅ ⦂ ℙ(T×ℤ))∈(∅ ⦂ ℙ(T)) → ℕ"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.trueGoal"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="open/inv2/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6" org.eventb.core.prSets="A,P,T">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p6" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p7,p8"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p9"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p10"/>
+<org.eventb.core.prHypAction name="HIDE2" org.eventb.core.prHyps="p11"/>
+<org.eventb.core.prHypAction name="HIDE3" org.eventb.core.prHyps="p7"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ML" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p4,p2,p5,p3,p8">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="0;1:500"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="a" org.eventb.core.type="A"/>
+<org.eventb.core.prIdent name="account" org.eventb.core.type="ℙ(A)"/>
+<org.eventb.core.prIdent name="atr" org.eventb.core.type="ℙ(T×A)"/>
+<org.eventb.core.prIdent name="balance" org.eventb.core.type="ℙ(A×ℤ)"/>
+<org.eventb.core.prIdent name="limit" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="mtr" org.eventb.core.type="ℙ(T×ℤ)"/>
+<org.eventb.core.prIdent name="owner" org.eventb.core.type="ℙ(A×P)"/>
+<org.eventb.core.prIdent name="tr" org.eventb.core.type="ℙ(T)"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="account⊆A"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="¬a∈account"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="tr⊆T"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="p∈P">
+<org.eventb.core.prIdent name="p" org.eventb.core.type="P"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="a∈A"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="limit&gt;0"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="owner∈account → P"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="mtr∈tr → ℕ"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="balance∈account → 0 ‥ limit"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="atr∈tr → account∪{a}"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="atr∈tr → account"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="a∈A∧a∉account"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="com.clearsy.atelierb.provers.core.externalML:1"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="close/inv2/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10" org.eventb.core.prSets="A,P,T">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p5" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p11"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p12"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p13"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ML" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p3,p8,p6,p10,p7,p9,p4,p1,p2,p11">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="0;1:500"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="a" org.eventb.core.type="A"/>
+<org.eventb.core.prIdent name="account" org.eventb.core.type="ℙ(A)"/>
+<org.eventb.core.prIdent name="atr" org.eventb.core.type="ℙ(T×A)"/>
+<org.eventb.core.prIdent name="balance" org.eventb.core.type="ℙ(A×ℤ)"/>
+<org.eventb.core.prIdent name="limit" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="mtr" org.eventb.core.type="ℙ(T×ℤ)"/>
+<org.eventb.core.prIdent name="owner" org.eventb.core.type="ℙ(A×P)"/>
+<org.eventb.core.prIdent name="tr" org.eventb.core.type="ℙ(T)"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="account⊆A"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="tr⊆T"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="balance(a)=0"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="¬a∈ran(atr)"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="a∈account"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="a∈dom(balance)"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="balance∈A ⇸ ℤ"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="atr∈tr → account ∖ {a}"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="limit&gt;0"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="a∉ran(atr)"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="owner∈account → P"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="mtr∈tr → ℕ"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="balance∈account → 0 ‥ limit"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="atr∈tr → account"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="com.clearsy.atelierb.provers.core.externalML:1"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="transfer1/inv2/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12" org.eventb.core.prSets="A,P,T">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p9" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p13,p14"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p15"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p16"/>
+<org.eventb.core.prHypAction name="HIDE2" org.eventb.core.prHyps="p13"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ML" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p5,p10,p7,p12,p8,p11,p2,p6,p4,p1,p3,p14">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="0;1:500"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="a" org.eventb.core.type="A"/>
+<org.eventb.core.prIdent name="account" org.eventb.core.type="ℙ(A)"/>
+<org.eventb.core.prIdent name="atr" org.eventb.core.type="ℙ(T×A)"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="A"/>
+<org.eventb.core.prIdent name="balance" org.eventb.core.type="ℙ(A×ℤ)"/>
+<org.eventb.core.prIdent name="limit" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="m" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="mtr" org.eventb.core.type="ℙ(T×ℤ)"/>
+<org.eventb.core.prIdent name="owner" org.eventb.core.type="ℙ(A×P)"/>
+<org.eventb.core.prIdent name="t" org.eventb.core.type="T"/>
+<org.eventb.core.prIdent name="tr" org.eventb.core.type="ℙ(T)"/>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="account⊆A"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="m&gt;0"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="atr∪{t ↦ b}∈tr∪{t} → account"/>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="tr⊆T"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="t∈T"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="a∈account"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="a∈dom(balance)"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="balance∈A ⇸ ℤ"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="¬t∈tr"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="m≤balance(a)"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="limit&gt;0"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="b∈account"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="owner∈account → P"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="mtr∈tr → ℕ"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="t∈T∧t∉tr"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="balance∈account → 0 ‥ limit"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="atr∈tr → account"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="com.clearsy.atelierb.provers.core.externalML:1"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="transfer1/inv3/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12" org.eventb.core.prSets="A,P,T">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p9" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p13,p14"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p15"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p16"/>
+<org.eventb.core.prHypAction name="HIDE2" org.eventb.core.prHyps="p13"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ML" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p5,p10,p7,p12,p8,p11,p2,p6,p4,p1,p3,p14">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="0;1:500"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="a" org.eventb.core.type="A"/>
+<org.eventb.core.prIdent name="account" org.eventb.core.type="ℙ(A)"/>
+<org.eventb.core.prIdent name="atr" org.eventb.core.type="ℙ(T×A)"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="A"/>
+<org.eventb.core.prIdent name="balance" org.eventb.core.type="ℙ(A×ℤ)"/>
+<org.eventb.core.prIdent name="limit" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="m" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="mtr" org.eventb.core.type="ℙ(T×ℤ)"/>
+<org.eventb.core.prIdent name="owner" org.eventb.core.type="ℙ(A×P)"/>
+<org.eventb.core.prIdent name="t" org.eventb.core.type="T"/>
+<org.eventb.core.prIdent name="tr" org.eventb.core.type="ℙ(T)"/>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="account⊆A"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="mtr∪{t ↦ m}∈tr∪{t} → ℕ"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="m&gt;0"/>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="tr⊆T"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="t∈T"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="a∈account"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="a∈dom(balance)"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="balance∈A ⇸ ℤ"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="¬t∈tr"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="m≤balance(a)"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="limit&gt;0"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="b∈account"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="owner∈account → P"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="mtr∈tr → ℕ"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="t∈T∧t∉tr"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="balance∈account → 0 ‥ limit"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="atr∈tr → account"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="com.clearsy.atelierb.provers.core.externalML:1"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="transfer2/grd1/GRD" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2" org.eventb.core.prSets="A,T">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p3"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p4"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="functional image goal for atr(t)" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p2">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p0">
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="functional image goal for atr(t)" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p5">
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="hyp" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p0"/>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue="0"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue="0"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="account" org.eventb.core.type="ℙ(A)"/>
+<org.eventb.core.prIdent name="atr" org.eventb.core.type="ℙ(T×A)"/>
+<org.eventb.core.prIdent name="t" org.eventb.core.type="T"/>
+<org.eventb.core.prIdent name="tr" org.eventb.core.type="ℙ(T)"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="account⊆A"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="atr∈T ⇸ A"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="atr(t)∈A"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="atr(t)∈account"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="tr⊆T"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="atr∈tr → account"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.funImgGoal"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.hyp"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="transfer2/grd3/GRD" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14" org.eventb.core.prSets="A,P,T">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p15"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p16"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ML" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p9,p13,p10,p14,p11,p3,p8,p5,p4,p6,p2,p7,p12,p1">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="0;1:500"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="account" org.eventb.core.type="ℙ(A)"/>
+<org.eventb.core.prIdent name="atr" org.eventb.core.type="ℙ(T×A)"/>
+<org.eventb.core.prIdent name="balance" org.eventb.core.type="ℙ(A×ℤ)"/>
+<org.eventb.core.prIdent name="limit" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="mtr" org.eventb.core.type="ℙ(T×ℤ)"/>
+<org.eventb.core.prIdent name="owner" org.eventb.core.type="ℙ(A×P)"/>
+<org.eventb.core.prIdent name="t" org.eventb.core.type="T"/>
+<org.eventb.core.prIdent name="tr" org.eventb.core.type="ℙ(T)"/>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="account⊆A"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="mtr∈T ⇸ ℤ"/>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="tr⊆T"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="mtr(t)&gt;0"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="atr(t)∈dom(balance)"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="∀t⦂T·t∈dom(mtr)⇒mtr(t)&gt;0"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="t∈dom(atr)"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="balance(atr(t))+mtr(t)≤limit"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="atr∈T ⇸ A"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="balance∈A ⇸ ℤ"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="t∈tr"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="limit&gt;0"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="owner∈account → P"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="mtr∈tr → ℕ"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="t∈dom(mtr)"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="balance∈account → 0 ‥ limit"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="atr∈tr → account"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="com.clearsy.atelierb.provers.core.externalML:1"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="transfer2/grd2/GRD" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p0" org.eventb.core.prSets="A,T">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="hyp" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p0"/>
+<org.eventb.core.prIdent name="atr" org.eventb.core.type="ℙ(T×A)"/>
+<org.eventb.core.prIdent name="balance" org.eventb.core.type="ℙ(A×ℤ)"/>
+<org.eventb.core.prIdent name="limit" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="mtr" org.eventb.core.type="ℙ(T×ℤ)"/>
+<org.eventb.core.prIdent name="t" org.eventb.core.type="T"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="balance(atr(t))+mtr(t)≤limit"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.hyp"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="transfer2/act1/SIM" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="" org.eventb.core.prSets="A,T">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p1">
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="⊤ goal" org.eventb.core.prGoal="p1" org.eventb.core.prHyps=""/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="atr" org.eventb.core.type="ℙ(T×A)"/>
+<org.eventb.core.prIdent name="balance" org.eventb.core.type="ℙ(A×ℤ)"/>
+<org.eventb.core.prIdent name="mtr" org.eventb.core.type="ℙ(T×ℤ)"/>
+<org.eventb.core.prIdent name="t" org.eventb.core.type="T"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="⊤"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="balance{atr(t) ↦ balance(atr(t))+mtr(t)}=balance{atr(t) ↦ balance(atr(t))+mtr(t)}"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.trueGoal"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="transfer2/grd2/WD" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4" org.eventb.core.prSets="A,T">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p5"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p6"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="∧ goal" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p7">
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="total function dom substitution in goal" org.eventb.core.prGoal="p7" org.eventb.core.prHyps="p4">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p1">
+<org.eventb.core.prRule name="r3" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="hyp" org.eventb.core.prGoal="p1" org.eventb.core.prHyps="p1"/>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue="1"/>
+<org.eventb.core.prExprRef name=".subst" org.eventb.core.prRef="e0"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prAnte name="(" org.eventb.core.prGoal="p8">
+<org.eventb.core.prRule name="r4" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="functional goal" org.eventb.core.prGoal="p8" org.eventb.core.prHyps="p4"/>
+</org.eventb.core.prAnte>
+<org.eventb.core.prAnte name=")" org.eventb.core.prGoal="p9">
+<org.eventb.core.prRule name="r5" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="functional image goal for atr(t)" org.eventb.core.prGoal="p9" org.eventb.core.prHyps="p4">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p9" org.eventb.core.prHyps="p10">
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="total function dom substitution in goal" org.eventb.core.prGoal="p9" org.eventb.core.prHyps="p3">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p10">
+<org.eventb.core.prRule name="r3" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="hyp" org.eventb.core.prGoal="p10" org.eventb.core.prHyps="p10"/>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue="1"/>
+<org.eventb.core.prExprRef name=".subst" org.eventb.core.prRef="e1"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue="0"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prAnte name="*" org.eventb.core.prGoal="p11">
+<org.eventb.core.prRule name="r4" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="functional goal" org.eventb.core.prGoal="p11" org.eventb.core.prHyps="p3"/>
+</org.eventb.core.prAnte>
+<org.eventb.core.prAnte name="+" org.eventb.core.prGoal="p12">
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="total function dom substitution in goal" org.eventb.core.prGoal="p12" org.eventb.core.prHyps="p2">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p1">
+<org.eventb.core.prRule name="r3" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="hyp" org.eventb.core.prGoal="p1" org.eventb.core.prHyps="p1"/>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue="1"/>
+<org.eventb.core.prExprRef name=".subst" org.eventb.core.prRef="e0"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prAnte name="," org.eventb.core.prGoal="p13">
+<org.eventb.core.prRule name="r4" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="functional goal" org.eventb.core.prGoal="p13" org.eventb.core.prHyps="p2"/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="account" org.eventb.core.type="ℙ(A)"/>
+<org.eventb.core.prIdent name="atr" org.eventb.core.type="ℙ(T×A)"/>
+<org.eventb.core.prIdent name="balance" org.eventb.core.type="ℙ(A×ℤ)"/>
+<org.eventb.core.prIdent name="limit" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="mtr" org.eventb.core.type="ℙ(T×ℤ)"/>
+<org.eventb.core.prIdent name="t" org.eventb.core.type="T"/>
+<org.eventb.core.prIdent name="tr" org.eventb.core.type="ℙ(T)"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="account⊆A"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="mtr∈T ⇸ ℤ"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="tr⊆T"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="atr(t)∈dom(balance)"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="t∈dom(atr)"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="t∈dom(atr)∧atr∈T ⇸ A∧atr(t)∈dom(balance)∧balance∈A ⇸ ℤ∧t∈dom(mtr)∧mtr∈T ⇸ ℤ"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="atr∈T ⇸ A"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="atr(t)∈account"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="balance∈A ⇸ ℤ"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="t∈tr"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="mtr∈tr → ℕ"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="t∈dom(mtr)"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="balance∈account → 0 ‥ limit"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="atr∈tr → account"/>
+<org.eventb.core.prExpr name="e1" org.eventb.core.expression="account"/>
+<org.eventb.core.prExpr name="e0" org.eventb.core.expression="tr"/>
+<org.eventb.core.prReas name="r5" org.eventb.core.prRID="org.eventb.core.seqprover.funImgGoal"/>
+<org.eventb.core.prReas name="r4" org.eventb.core.prRID="org.eventb.core.seqprover.isFunGoal"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.conj:0"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.totalDom:2"/>
+<org.eventb.core.prReas name="r3" org.eventb.core.prRID="org.eventb.core.seqprover.hyp"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="transfer2/act1/WD" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6" org.eventb.core.prSets="A,T">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p7">
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p7" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p8">
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="⊤ goal" org.eventb.core.prGoal="p8" org.eventb.core.prHyps=""/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="atr" org.eventb.core.type="ℙ(T×A)"/>
+<org.eventb.core.prIdent name="balance" org.eventb.core.type="ℙ(A×ℤ)"/>
+<org.eventb.core.prIdent name="mtr" org.eventb.core.type="ℙ(T×ℤ)"/>
+<org.eventb.core.prIdent name="t" org.eventb.core.type="T"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="t∈dom(atr)∧atr∈T ⇸ A∧atr(t)∈dom(balance)∧balance∈A ⇸ ℤ∧t∈dom(mtr)∧mtr∈T ⇸ ℤ"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="atr∈T ⇸ A"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="⊤"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="mtr∈T ⇸ ℤ"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="balance∈A ⇸ ℤ"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="t∈dom(mtr)"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="atr(t)∈dom(balance)"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="⊤∧⊤∧⊤∧⊤∧⊤∧⊤"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="t∈dom(atr)"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.trueGoal"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="transfer2/a/WWD" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2" org.eventb.core.prSets="A,T">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p3">
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p3" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p4">
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="⊤ goal" org.eventb.core.prGoal="p4" org.eventb.core.prHyps=""/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="atr" org.eventb.core.type="ℙ(T×A)"/>
+<org.eventb.core.prIdent name="t" org.eventb.core.type="T"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="⊤∧⊤"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="atr∈T ⇸ A"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="⊤"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="t∈dom(atr)∧atr∈T ⇸ A"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="t∈dom(atr)"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.trueGoal"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="transfer2/m/WWD" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2" org.eventb.core.prSets="T">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p3">
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p3" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p4">
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="⊤ goal" org.eventb.core.prGoal="p4" org.eventb.core.prHyps=""/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="mtr" org.eventb.core.type="ℙ(T×ℤ)"/>
+<org.eventb.core.prIdent name="t" org.eventb.core.type="T"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="⊤∧⊤"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="⊤"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="mtr∈T ⇸ ℤ"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="t∈dom(mtr)∧mtr∈T ⇸ ℤ"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="t∈dom(mtr)"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.trueGoal"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="transfer1/grd3/WD" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2" org.eventb.core.prSets="A">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p3"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p4"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="∧ goal" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p5">
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="total function dom substitution in goal" org.eventb.core.prGoal="p5" org.eventb.core.prHyps="p2">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p1">
+<org.eventb.core.prRule name="r3" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="hyp" org.eventb.core.prGoal="p1" org.eventb.core.prHyps="p1"/>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue="1"/>
+<org.eventb.core.prExprRef name=".subst" org.eventb.core.prRef="e0"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prAnte name="(" org.eventb.core.prGoal="p6">
+<org.eventb.core.prRule name="r4" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="functional goal" org.eventb.core.prGoal="p6" org.eventb.core.prHyps="p2"/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="a" org.eventb.core.type="A"/>
+<org.eventb.core.prIdent name="account" org.eventb.core.type="ℙ(A)"/>
+<org.eventb.core.prIdent name="balance" org.eventb.core.type="ℙ(A×ℤ)"/>
+<org.eventb.core.prIdent name="limit" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="account⊆A"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="a∈dom(balance)∧balance∈A ⇸ ℤ"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="a∈dom(balance)"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="tr⊆T">
+<org.eventb.core.prIdent name="T" org.eventb.core.type="ℙ(T)"/>
+<org.eventb.core.prIdent name="tr" org.eventb.core.type="ℙ(T)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="balance∈A ⇸ ℤ"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="a∈account"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="balance∈account → 0 ‥ limit"/>
+<org.eventb.core.prExpr name="e0" org.eventb.core.expression="account"/>
+<org.eventb.core.prReas name="r4" org.eventb.core.prRID="org.eventb.core.seqprover.isFunGoal"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.conj:0"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.totalDom:2"/>
+<org.eventb.core.prReas name="r3" org.eventb.core.prRID="org.eventb.core.seqprover.hyp"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="transfer1/grd2/GRD" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prHyps="">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p0" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p1,p2"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p3"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p4"/>
+<org.eventb.core.prHypAction name="HIDE2" org.eventb.core.prHyps="p1"/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="account⊆A">
+<org.eventb.core.prIdent name="A" org.eventb.core.type="ℙ(A)"/>
+<org.eventb.core.prIdent name="account" org.eventb.core.type="ℙ(A)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="tr⊆T">
+<org.eventb.core.prIdent name="T" org.eventb.core.type="ℙ(T)"/>
+<org.eventb.core.prIdent name="tr" org.eventb.core.type="ℙ(T)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="¬t∈tr">
+<org.eventb.core.prIdent name="T" org.eventb.core.type="ℙ(T)"/>
+<org.eventb.core.prIdent name="t" org.eventb.core.type="T"/>
+<org.eventb.core.prIdent name="tr" org.eventb.core.type="ℙ(T)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="t∈T∧t∉tr">
+<org.eventb.core.prIdent name="T" org.eventb.core.type="ℙ(T)"/>
+<org.eventb.core.prIdent name="t" org.eventb.core.type="T"/>
+<org.eventb.core.prIdent name="tr" org.eventb.core.type="ℙ(T)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="t∈T">
+<org.eventb.core.prIdent name="T" org.eventb.core.type="ℙ(T)"/>
+<org.eventb.core.prIdent name="t" org.eventb.core.type="T"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="inv4/WD" org.eventb.core.confidence="1000" org.eventb.core.prFresh="t" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1" org.eventb.core.prSets="T">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p2"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p3"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="∀ goal (frees t)" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p4">
+<org.eventb.core.prIdent name="t" org.eventb.core.type="T"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="⇒ goal" org.eventb.core.prGoal="p4" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p6" org.eventb.core.prHyps="p5">
+<org.eventb.core.prRule name="r3" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="functional goal" org.eventb.core.prGoal="p6" org.eventb.core.prHyps="p1"/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="mtr" org.eventb.core.type="ℙ(T×ℤ)"/>
+<org.eventb.core.prIdent name="tr" org.eventb.core.type="ℙ(T)"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="account⊆A">
+<org.eventb.core.prIdent name="A" org.eventb.core.type="ℙ(A)"/>
+<org.eventb.core.prIdent name="account" org.eventb.core.type="ℙ(A)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="mtr∈T ⇸ ℤ"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="tr⊆T"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="mtr∈tr → ℕ"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="t∈dom(mtr)⇒mtr∈T ⇸ ℤ">
+<org.eventb.core.prIdent name="t" org.eventb.core.type="T"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="t∈dom(mtr)">
+<org.eventb.core.prIdent name="t" org.eventb.core.type="T"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="∀t⦂T·t∈dom(mtr)⇒mtr∈T ⇸ ℤ"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.impI"/>
+<org.eventb.core.prReas name="r3" org.eventb.core.prRID="org.eventb.core.seqprover.isFunGoal"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.allI"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="INITIALISATION/inv4/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="" org.eventb.core.prSets="T">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p1">
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="⊤ goal" org.eventb.core.prGoal="p1" org.eventb.core.prHyps=""/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="⊤"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="∀t⦂T·t∈dom(∅ ⦂ ℙ(T×ℤ))⇒(∅ ⦂ ℙ(T×ℤ))(t)&gt;0"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.trueGoal"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="transfer1/inv4/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="t0" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12" org.eventb.core.prSets="A,P,T">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p8" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p13,p14"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p15"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p16"/>
+<org.eventb.core.prHypAction name="HIDE2" org.eventb.core.prHyps="p13"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="∀ goal (frees t0)" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p17">
+<org.eventb.core.prIdent name="t0" org.eventb.core.type="T"/>
+<org.eventb.core.prRule name="r3" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="⇒ goal" org.eventb.core.prGoal="p17" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p19" org.eventb.core.prHyps="p18">
+<org.eventb.core.prRule name="r4" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="sl/ds" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="SELECT0" org.eventb.core.prHyps="p10,p6,p12,p7,p1,p3"/>
+<org.eventb.core.prRule name="r5" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="CVC3" org.eventb.core.prGoal="p19" org.eventb.core.prHyps="p11,p9,p2,p5,p4,p14,p18,p10,p6,p12,p7,p1,p3">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="R1000"/>
+<org.eventb.core.prString name=".config_id" org.eventb.core.prSValue="CVC3"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="a" org.eventb.core.type="A"/>
+<org.eventb.core.prIdent name="account" org.eventb.core.type="ℙ(A)"/>
+<org.eventb.core.prIdent name="atr" org.eventb.core.type="ℙ(T×A)"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="A"/>
+<org.eventb.core.prIdent name="balance" org.eventb.core.type="ℙ(A×ℤ)"/>
+<org.eventb.core.prIdent name="limit" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="m" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="mtr" org.eventb.core.type="ℙ(T×ℤ)"/>
+<org.eventb.core.prIdent name="owner" org.eventb.core.type="ℙ(A×P)"/>
+<org.eventb.core.prIdent name="t" org.eventb.core.type="T"/>
+<org.eventb.core.prIdent name="tr" org.eventb.core.type="ℙ(T)"/>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="account⊆A"/>
+<org.eventb.core.prPred name="p18" org.eventb.core.predicate="t0∈dom(mtr∪{t ↦ m})">
+<org.eventb.core.prIdent name="t0" org.eventb.core.type="T"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="m&gt;0"/>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="tr⊆T"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="∀t0⦂T·t0∈dom(mtr∪{t ↦ m})⇒(mtr∪{t ↦ m})(t0)&gt;0"/>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="t0∈dom(mtr∪{t ↦ m})⇒(mtr∪{t ↦ m})(t0)&gt;0">
+<org.eventb.core.prIdent name="t0" org.eventb.core.type="T"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="t∈T"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="a∈account"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="∀t⦂T·t∈dom(mtr)⇒mtr(t)&gt;0"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="a∈dom(balance)"/>
+<org.eventb.core.prPred name="p19" org.eventb.core.predicate="(mtr∪{t ↦ m})(t0)&gt;0">
+<org.eventb.core.prIdent name="t0" org.eventb.core.type="T"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="balance∈A ⇸ ℤ"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="¬t∈tr"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="m≤balance(a)"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="b∈account"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="owner∈account → P"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="mtr∈tr → ℕ"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="t∈T∧t∉tr"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="balance∈account → 0 ‥ limit"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="atr∈tr → account"/>
+<org.eventb.core.prReas name="r3" org.eventb.core.prRID="org.eventb.core.seqprover.impI"/>
+<org.eventb.core.prReas name="r5" org.eventb.core.prRID="org.eventb.smt.core.externalSMT"/>
+<org.eventb.core.prReas name="r4" org.eventb.core.prRID="org.eventb.core.seqprover.mngHyp"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.allI"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="transfer2/inv2/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14" org.eventb.core.prSets="A,P,T">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p15"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p16"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ML" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p9,p13,p10,p14,p11,p3,p8,p5,p4,p6,p2,p7,p12,p1">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="0;1:500"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="account" org.eventb.core.type="ℙ(A)"/>
+<org.eventb.core.prIdent name="atr" org.eventb.core.type="ℙ(T×A)"/>
+<org.eventb.core.prIdent name="balance" org.eventb.core.type="ℙ(A×ℤ)"/>
+<org.eventb.core.prIdent name="limit" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="mtr" org.eventb.core.type="ℙ(T×ℤ)"/>
+<org.eventb.core.prIdent name="owner" org.eventb.core.type="ℙ(A×P)"/>
+<org.eventb.core.prIdent name="t" org.eventb.core.type="T"/>
+<org.eventb.core.prIdent name="tr" org.eventb.core.type="ℙ(T)"/>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="account⊆A"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="mtr∈T ⇸ ℤ"/>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="tr⊆T"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="atr(t)∈dom(balance)"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="∀t⦂T·t∈dom(mtr)⇒mtr(t)&gt;0"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="t∈dom(atr)"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="{t} ⩤ atr∈tr ∖ {t} → account"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="balance(atr(t))+mtr(t)≤limit"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="atr∈T ⇸ A"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="balance∈A ⇸ ℤ"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="t∈tr"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="limit&gt;0"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="owner∈account → P"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="mtr∈tr → ℕ"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="t∈dom(mtr)"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="balance∈account → 0 ‥ limit"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="atr∈tr → account"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="com.clearsy.atelierb.provers.core.externalML:1"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="transfer2/inv3/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14" org.eventb.core.prSets="A,P,T">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p15"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p16"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ML" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p9,p13,p10,p14,p11,p3,p8,p5,p4,p6,p2,p7,p12,p1">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="0;1:500"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="account" org.eventb.core.type="ℙ(A)"/>
+<org.eventb.core.prIdent name="atr" org.eventb.core.type="ℙ(T×A)"/>
+<org.eventb.core.prIdent name="balance" org.eventb.core.type="ℙ(A×ℤ)"/>
+<org.eventb.core.prIdent name="limit" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="mtr" org.eventb.core.type="ℙ(T×ℤ)"/>
+<org.eventb.core.prIdent name="owner" org.eventb.core.type="ℙ(A×P)"/>
+<org.eventb.core.prIdent name="t" org.eventb.core.type="T"/>
+<org.eventb.core.prIdent name="tr" org.eventb.core.type="ℙ(T)"/>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="account⊆A"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="mtr∈T ⇸ ℤ"/>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="tr⊆T"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="{t} ⩤ mtr∈tr ∖ {t} → ℕ"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="atr(t)∈dom(balance)"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="∀t⦂T·t∈dom(mtr)⇒mtr(t)&gt;0"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="t∈dom(atr)"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="balance(atr(t))+mtr(t)≤limit"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="atr∈T ⇸ A"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="balance∈A ⇸ ℤ"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="t∈tr"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="limit&gt;0"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="owner∈account → P"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="mtr∈tr → ℕ"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="t∈dom(mtr)"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="balance∈account → 0 ‥ limit"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="atr∈tr → account"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="com.clearsy.atelierb.provers.core.externalML:1"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="transfer2/inv4/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="t0" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14" org.eventb.core.prSets="A,P,T">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p15">
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p16"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p17"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Functional image simplification in goal" org.eventb.core.prGoal="p15" org.eventb.core.prHyps="p11">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p18">
+<org.eventb.core.prRule name="r3" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="∀ goal (frees t0)" org.eventb.core.prGoal="p18" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p19">
+<org.eventb.core.prIdent name="t0" org.eventb.core.type="T"/>
+<org.eventb.core.prRule name="r4" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="⇒ goal" org.eventb.core.prGoal="p19" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p21" org.eventb.core.prHyps="p20">
+<org.eventb.core.prRule name="r5" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ML" org.eventb.core.prGoal="p21" org.eventb.core.prHyps="p9,p13,p10,p14,p11,p3,p8,p5,p4,p6,p2,p7,p12,p1,p20">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="0;1:500"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue="1.1.0"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="account" org.eventb.core.type="ℙ(A)"/>
+<org.eventb.core.prIdent name="atr" org.eventb.core.type="ℙ(T×A)"/>
+<org.eventb.core.prIdent name="balance" org.eventb.core.type="ℙ(A×ℤ)"/>
+<org.eventb.core.prIdent name="limit" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="mtr" org.eventb.core.type="ℙ(T×ℤ)"/>
+<org.eventb.core.prIdent name="owner" org.eventb.core.type="ℙ(A×P)"/>
+<org.eventb.core.prIdent name="t" org.eventb.core.type="T"/>
+<org.eventb.core.prIdent name="tr" org.eventb.core.type="ℙ(T)"/>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="account⊆A"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="mtr∈T ⇸ ℤ"/>
+<org.eventb.core.prPred name="p20" org.eventb.core.predicate="t0∈dom(mtr) ∖ {t}">
+<org.eventb.core.prIdent name="t0" org.eventb.core.type="T"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="tr⊆T"/>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="∀t0⦂T·t0∈dom(mtr) ∖ {t}⇒({t} ⩤ mtr)(t0)&gt;0"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="atr(t)∈dom(balance)"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="∀t⦂T·t∈dom(mtr)⇒mtr(t)&gt;0"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="t∈dom(atr)"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="balance(atr(t))+mtr(t)≤limit"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="atr∈T ⇸ A"/>
+<org.eventb.core.prPred name="p21" org.eventb.core.predicate="mtr(t0)&gt;0">
+<org.eventb.core.prIdent name="t0" org.eventb.core.type="T"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="∀t0⦂T·t0∈dom({t} ⩤ mtr)⇒({t} ⩤ mtr)(t0)&gt;0"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="balance∈A ⇸ ℤ"/>
+<org.eventb.core.prPred name="p19" org.eventb.core.predicate="t0∈dom(mtr) ∖ {t}⇒mtr(t0)&gt;0">
+<org.eventb.core.prIdent name="t0" org.eventb.core.type="T"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="t∈tr"/>
+<org.eventb.core.prPred name="p18" org.eventb.core.predicate="∀t0⦂T·t0∈dom(mtr) ∖ {t}⇒mtr(t0)&gt;0"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="limit&gt;0"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="owner∈account → P"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="mtr∈tr → ℕ"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="t∈dom(mtr)"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="balance∈account → 0 ‥ limit"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="atr∈tr → account"/>
+<org.eventb.core.prReas name="r4" org.eventb.core.prRID="org.eventb.core.seqprover.impI"/>
+<org.eventb.core.prReas name="r5" org.eventb.core.prRID="com.clearsy.atelierb.provers.core.externalML:1"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+<org.eventb.core.prReas name="r3" org.eventb.core.prRID="org.eventb.core.seqprover.allI"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.funImgSimplifies:0"/>
+</org.eventb.core.prProof>
+</org.eventb.core.prFile>
