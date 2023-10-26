@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="0">
+    <org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.poStamp="0">
+        <org.eventb.core.poIdentifier name="D" org.eventb.core.type="ℙ(D)"/>
+        <org.eventb.core.poIdentifier name="P" org.eventb.core.type="ℙ(D×D)"/>
+        <org.eventb.core.poIdentifier name="Q" org.eventb.core.type="ℙ(D)"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/predicate_logic/TestSetting.bpo|org.eventb.core.poFile#TestSetting|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="0">
+        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="P⊆D × D" org.eventb.core.source="/predicate_logic/TestSetting.buc|org.eventb.core.contextFile#TestSetting|org.eventb.core.axiom#("/>
+        <org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="Q⊆D" org.eventb.core.source="/predicate_logic/TestSetting.buc|org.eventb.core.contextFile#TestSetting|org.eventb.core.axiom#)"/>
+    </org.eventb.core.poPredicateSet>
+</org.eventb.core.poFile>

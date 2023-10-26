@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.scMachineFile org.eventb.core.accurate="true" org.eventb.core.configuration="org.eventb.core.fwd">
+    <org.eventb.core.scSeesContext name="'" org.eventb.core.scTarget="/reversing/PRE.bcc" org.eventb.core.source="/reversing/POST.bum|org.eventb.core.machineFile#POST|org.eventb.core.seesContext#+"/>
+    <org.eventb.core.scInternalContext name="PRE">
+        <org.eventb.core.scAxiom name="'" org.eventb.core.label="axm1" org.eventb.core.predicate="n&gt;0" org.eventb.core.source="/reversing/PRE.buc|org.eventb.core.contextFile#PRE|org.eventb.core.axiom#(" org.eventb.core.theorem="false"/>
+        <org.eventb.core.scAxiom name="(" org.eventb.core.label="axm2" org.eventb.core.predicate="f∈0 ‥ n − 1 → ℕ" org.eventb.core.source="/reversing/PRE.buc|org.eventb.core.contextFile#PRE|org.eventb.core.axiom#)" org.eventb.core.theorem="false"/>
+        <org.eventb.core.scConstant name="f" org.eventb.core.source="/reversing/PRE.buc|org.eventb.core.contextFile#PRE|org.eventb.core.constant#*" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
+        <org.eventb.core.scConstant name="n" org.eventb.core.source="/reversing/PRE.buc|org.eventb.core.contextFile#PRE|org.eventb.core.constant#'" org.eventb.core.type="ℤ"/>
+    </org.eventb.core.scInternalContext>
+    <org.eventb.core.scInvariant name="PRF" org.eventb.core.label="inv1" org.eventb.core.predicate="g∈ℕ ⇸ ℕ" org.eventb.core.source="/reversing/POST.bum|org.eventb.core.machineFile#POST|org.eventb.core.invariant#(" org.eventb.core.theorem="false"/>
+    <org.eventb.core.scVariable name="g" org.eventb.core.abstract="false" org.eventb.core.concrete="true" org.eventb.core.source="/reversing/POST.bum|org.eventb.core.machineFile#POST|org.eventb.core.variable#-" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
+    <org.eventb.core.scEvent name="PRG" org.eventb.core.accurate="true" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="INITIALISATION" org.eventb.core.source="/reversing/POST.bum|org.eventb.core.machineFile#POST|org.eventb.core.event#'">
+        <org.eventb.core.scAction name="'" org.eventb.core.assignment="g :∈ ℕ ⇸ ℕ" org.eventb.core.label="act1" org.eventb.core.source="/reversing/POST.bum|org.eventb.core.machineFile#POST|org.eventb.core.event#'|org.eventb.core.action#'"/>
+    </org.eventb.core.scEvent>
+    <org.eventb.core.scEvent name="PRH" org.eventb.core.accurate="true" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="final" org.eventb.core.source="/reversing/POST.bum|org.eventb.core.machineFile#POST|org.eventb.core.event#*">
+        <org.eventb.core.scGuard name="'" org.eventb.core.label="grd1" org.eventb.core.predicate="g∈0 ‥ n − 1 → ℕ" org.eventb.core.source="/reversing/POST.bum|org.eventb.core.machineFile#POST|org.eventb.core.event#*|org.eventb.core.guard#'" org.eventb.core.theorem="false"/>
+        <org.eventb.core.scGuard name="(" org.eventb.core.label="grd2" org.eventb.core.predicate="∀i⦂ℤ·i∈0 ‥ n − 1⇒g(i)=f(n − i − 1)" org.eventb.core.source="/reversing/POST.bum|org.eventb.core.machineFile#POST|org.eventb.core.event#*|org.eventb.core.guard#(" org.eventb.core.theorem="false"/>
+    </org.eventb.core.scEvent>
+    <org.eventb.core.scEvent name="PRI" org.eventb.core.accurate="true" org.eventb.core.convergence="2" org.eventb.core.extended="false" org.eventb.core.label="progress" org.eventb.core.source="/reversing/POST.bum|org.eventb.core.machineFile#POST|org.eventb.core.event#,">
+        <org.eventb.core.scAction name="'" org.eventb.core.assignment="g :∈ ℕ ⇸ ℕ" org.eventb.core.label="act1" org.eventb.core.source="/reversing/POST.bum|org.eventb.core.machineFile#POST|org.eventb.core.event#,|org.eventb.core.action#'"/>
+    </org.eventb.core.scEvent>
+</org.eventb.core.scMachineFile>

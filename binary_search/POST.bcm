@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.scMachineFile org.eventb.core.accurate="true" org.eventb.core.configuration="org.eventb.core.fwd">
+    <org.eventb.core.scSeesContext name="'" org.eventb.core.scTarget="/binary_search/PRE.bcc" org.eventb.core.source="/binary_search/POST.bum|org.eventb.core.machineFile#POST|org.eventb.core.seesContext#("/>
+    <org.eventb.core.scInternalContext name="PRE">
+        <org.eventb.core.scAxiom name="'" org.eventb.core.label="axm1" org.eventb.core.predicate="n∈ℕ1" org.eventb.core.source="/binary_search/PRE.buc|org.eventb.core.contextFile#PRE|org.eventb.core.axiom#*" org.eventb.core.theorem="false"/>
+        <org.eventb.core.scAxiom name="(" org.eventb.core.label="axm2" org.eventb.core.predicate="f∈0 ‥ n − 1 → ℕ" org.eventb.core.source="/binary_search/PRE.buc|org.eventb.core.contextFile#PRE|org.eventb.core.axiom#+" org.eventb.core.theorem="false"/>
+        <org.eventb.core.scAxiom name=")" org.eventb.core.label="axm3" org.eventb.core.predicate="v∈ran(f)" org.eventb.core.source="/binary_search/PRE.buc|org.eventb.core.contextFile#PRE|org.eventb.core.axiom#," org.eventb.core.theorem="false"/>
+        <org.eventb.core.scAxiom name="*" org.eventb.core.label="axm4" org.eventb.core.predicate="∀i⦂ℤ,j⦂ℤ·i∈0 ‥ n − 1∧j∈0 ‥ n − 1∧i≤j⇒f(i)≤f(j)" org.eventb.core.source="/binary_search/PRE.buc|org.eventb.core.contextFile#PRE|org.eventb.core.axiom#-" org.eventb.core.theorem="false"/>
+        <org.eventb.core.scConstant name="f" org.eventb.core.source="/binary_search/PRE.buc|org.eventb.core.contextFile#PRE|org.eventb.core.constant#(" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
+        <org.eventb.core.scConstant name="n" org.eventb.core.source="/binary_search/PRE.buc|org.eventb.core.contextFile#PRE|org.eventb.core.constant#'" org.eventb.core.type="ℤ"/>
+        <org.eventb.core.scConstant name="v" org.eventb.core.source="/binary_search/PRE.buc|org.eventb.core.contextFile#PRE|org.eventb.core.constant#)" org.eventb.core.type="ℤ"/>
+    </org.eventb.core.scInternalContext>
+    <org.eventb.core.scInvariant name="PRF" org.eventb.core.label="inv1" org.eventb.core.predicate="r∈ℤ" org.eventb.core.source="/binary_search/POST.bum|org.eventb.core.machineFile#POST|org.eventb.core.invariant#," org.eventb.core.theorem="false"/>
+    <org.eventb.core.scInvariant name="PRG" org.eventb.core.label="inv2" org.eventb.core.predicate="p∈ℤ" org.eventb.core.source="/binary_search/POST.bum|org.eventb.core.machineFile#POST|org.eventb.core.invariant#-" org.eventb.core.theorem="false"/>
+    <org.eventb.core.scInvariant name="PRH" org.eventb.core.label="inv3" org.eventb.core.predicate="q∈ℤ" org.eventb.core.source="/binary_search/POST.bum|org.eventb.core.machineFile#POST|org.eventb.core.invariant#0" org.eventb.core.theorem="false"/>
+    <org.eventb.core.scVariable name="p" org.eventb.core.abstract="false" org.eventb.core.concrete="true" org.eventb.core.source="/binary_search/POST.bum|org.eventb.core.machineFile#POST|org.eventb.core.variable#." org.eventb.core.type="ℤ"/>
+    <org.eventb.core.scVariable name="q" org.eventb.core.abstract="false" org.eventb.core.concrete="true" org.eventb.core.source="/binary_search/POST.bum|org.eventb.core.machineFile#POST|org.eventb.core.variable#\/" org.eventb.core.type="ℤ"/>
+    <org.eventb.core.scVariable name="r" org.eventb.core.abstract="false" org.eventb.core.concrete="true" org.eventb.core.source="/binary_search/POST.bum|org.eventb.core.machineFile#POST|org.eventb.core.variable#)" org.eventb.core.type="ℤ"/>
+    <org.eventb.core.scEvent name="PRI" org.eventb.core.accurate="true" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="INITIALISATION" org.eventb.core.source="/binary_search/POST.bum|org.eventb.core.machineFile#POST|org.eventb.core.event#'">
+        <org.eventb.core.scAction name="'" org.eventb.core.assignment="r :∈ ℤ" org.eventb.core.label="act1" org.eventb.core.source="/binary_search/POST.bum|org.eventb.core.machineFile#POST|org.eventb.core.event#'|org.eventb.core.action#'"/>
+        <org.eventb.core.scAction name="(" org.eventb.core.assignment="p :∈ ℤ" org.eventb.core.label="act2" org.eventb.core.source="/binary_search/POST.bum|org.eventb.core.machineFile#POST|org.eventb.core.event#'|org.eventb.core.action#("/>
+        <org.eventb.core.scAction name=")" org.eventb.core.assignment="q :∈ ℤ" org.eventb.core.label="act3" org.eventb.core.source="/binary_search/POST.bum|org.eventb.core.machineFile#POST|org.eventb.core.event#'|org.eventb.core.action#)"/>
+    </org.eventb.core.scEvent>
+    <org.eventb.core.scEvent name="PRJ" org.eventb.core.accurate="true" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="final" org.eventb.core.source="/binary_search/POST.bum|org.eventb.core.machineFile#POST|org.eventb.core.event#*">
+        <org.eventb.core.scGuard name="'" org.eventb.core.label="grd1" org.eventb.core.predicate="r∈dom(f)" org.eventb.core.source="/binary_search/POST.bum|org.eventb.core.machineFile#POST|org.eventb.core.event#*|org.eventb.core.guard#'" org.eventb.core.theorem="false"/>
+        <org.eventb.core.scGuard name="(" org.eventb.core.label="grd2" org.eventb.core.predicate="f(r)=v" org.eventb.core.source="/binary_search/POST.bum|org.eventb.core.machineFile#POST|org.eventb.core.event#*|org.eventb.core.guard#(" org.eventb.core.theorem="false"/>
+    </org.eventb.core.scEvent>
+    <org.eventb.core.scEvent name="PRK" org.eventb.core.accurate="true" org.eventb.core.convergence="2" org.eventb.core.extended="false" org.eventb.core.label="progress" org.eventb.core.source="/binary_search/POST.bum|org.eventb.core.machineFile#POST|org.eventb.core.event#+">
+        <org.eventb.core.scAction name="'" org.eventb.core.assignment="r :∈ ℤ" org.eventb.core.label="act1" org.eventb.core.source="/binary_search/POST.bum|org.eventb.core.machineFile#POST|org.eventb.core.event#+|org.eventb.core.action#'"/>
+        <org.eventb.core.scAction name="(" org.eventb.core.assignment="p :∈ ℤ" org.eventb.core.label="act2" org.eventb.core.source="/binary_search/POST.bum|org.eventb.core.machineFile#POST|org.eventb.core.event#+|org.eventb.core.action#("/>
+        <org.eventb.core.scAction name=")" org.eventb.core.assignment="q :∈ ℤ" org.eventb.core.label="act3" org.eventb.core.source="/binary_search/POST.bum|org.eventb.core.machineFile#POST|org.eventb.core.event#+|org.eventb.core.action#)"/>
+    </org.eventb.core.scEvent>
+</org.eventb.core.scMachineFile>

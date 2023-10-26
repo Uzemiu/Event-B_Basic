@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.scContextFile org.eventb.core.accurate="true" org.eventb.core.configuration="org.eventb.core.fwd">
+    <org.eventb.core.scAxiom name="'" org.eventb.core.label="axm2" org.eventb.core.predicate="n∈ℕ" org.eventb.core.source="/inversing/PRE.buc|org.eventb.core.contextFile#PRE|org.eventb.core.axiom#*" org.eventb.core.theorem="false"/>
+    <org.eventb.core.scAxiom name="(" org.eventb.core.label="axm3" org.eventb.core.predicate="f∈ℕ → ℕ" org.eventb.core.source="/inversing/PRE.buc|org.eventb.core.contextFile#PRE|org.eventb.core.axiom#+" org.eventb.core.theorem="false"/>
+    <org.eventb.core.scAxiom name=")" org.eventb.core.label="axm9" org.eventb.core.predicate="f(0)=0" org.eventb.core.source="/inversing/PRE.buc|org.eventb.core.contextFile#PRE|org.eventb.core.axiom#2" org.eventb.core.theorem="false"/>
+    <org.eventb.core.scAxiom name="*" org.eventb.core.label="axm5" org.eventb.core.predicate="∀i⦂ℤ,j⦂ℤ·i∈ℕ∧j∈ℕ∧i&lt;j⇒f(i)&lt;f(j)" org.eventb.core.source="/inversing/PRE.buc|org.eventb.core.contextFile#PRE|org.eventb.core.axiom#." org.eventb.core.theorem="false"/>
+    <org.eventb.core.scAxiom name="+" org.eventb.core.label="axm7" org.eventb.core.predicate="∀S⦂ℙ(ℤ)·S⊆ℕ∧0∈S∧(∀i⦂ℤ·i∈S⇒i+1∈S)⇒S=ℕ" org.eventb.core.source="/inversing/PRE.buc|org.eventb.core.contextFile#PRE|org.eventb.core.axiom#0" org.eventb.core.theorem="false"/>
+    <org.eventb.core.scAxiom name="," org.eventb.core.label="axm8" org.eventb.core.predicate="∀i⦂ℤ·i∈ℕ⇒i≤f(i)" org.eventb.core.source="/inversing/PRE.buc|org.eventb.core.contextFile#PRE|org.eventb.core.axiom#1" org.eventb.core.theorem="true"/>
+    <org.eventb.core.scConstant name="f" org.eventb.core.source="/inversing/PRE.buc|org.eventb.core.contextFile#PRE|org.eventb.core.constant#)" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
+    <org.eventb.core.scConstant name="n" org.eventb.core.source="/inversing/PRE.buc|org.eventb.core.contextFile#PRE|org.eventb.core.constant#(" org.eventb.core.type="ℤ"/>
+</org.eventb.core.scContextFile>

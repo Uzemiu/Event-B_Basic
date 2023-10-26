@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.scContextFile org.eventb.core.accurate="true" org.eventb.core.configuration="org.eventb.core.fwd">
+    <org.eventb.core.scAxiom name="'" org.eventb.core.label="axm1" org.eventb.core.predicate="P⊆D × D" org.eventb.core.source="/predicate_logic/TestSetting.buc|org.eventb.core.contextFile#TestSetting|org.eventb.core.axiom#(" org.eventb.core.theorem="false"/>
+    <org.eventb.core.scAxiom name="(" org.eventb.core.label="axm2" org.eventb.core.predicate="Q⊆D" org.eventb.core.source="/predicate_logic/TestSetting.buc|org.eventb.core.contextFile#TestSetting|org.eventb.core.axiom#)" org.eventb.core.theorem="false"/>
+    <org.eventb.core.scCarrierSet name="D" org.eventb.core.source="/predicate_logic/TestSetting.buc|org.eventb.core.contextFile#TestSetting|org.eventb.core.carrierSet#'" org.eventb.core.type="ℙ(D)"/>
+    <org.eventb.core.scConstant name="P" org.eventb.core.source="/predicate_logic/TestSetting.buc|org.eventb.core.contextFile#TestSetting|org.eventb.core.constant#+" org.eventb.core.type="ℙ(D×D)"/>
+    <org.eventb.core.scConstant name="Q" org.eventb.core.source="/predicate_logic/TestSetting.buc|org.eventb.core.contextFile#TestSetting|org.eventb.core.constant#," org.eventb.core.type="ℙ(D)"/>
+</org.eventb.core.scContextFile>

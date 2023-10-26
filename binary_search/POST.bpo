@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="0">
+    <org.eventb.core.poPredicateSet name="CTXHYP" org.eventb.core.poStamp="0">
+        <org.eventb.core.poIdentifier name="f" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
+        <org.eventb.core.poIdentifier name="n" org.eventb.core.type="ℤ"/>
+        <org.eventb.core.poIdentifier name="v" org.eventb.core.type="ℤ"/>
+        <org.eventb.core.poPredicate name="w" org.eventb.core.predicate="n∈ℕ1" org.eventb.core.source="/binary_search/PRE.buc|org.eventb.core.contextFile#PRE|org.eventb.core.axiom#*"/>
+        <org.eventb.core.poPredicate name="x" org.eventb.core.predicate="f∈0 ‥ n − 1 → ℕ" org.eventb.core.source="/binary_search/PRE.buc|org.eventb.core.contextFile#PRE|org.eventb.core.axiom#+"/>
+        <org.eventb.core.poPredicate name="y" org.eventb.core.predicate="v∈ran(f)" org.eventb.core.source="/binary_search/PRE.buc|org.eventb.core.contextFile#PRE|org.eventb.core.axiom#,"/>
+        <org.eventb.core.poPredicate name="z" org.eventb.core.predicate="∀i⦂ℤ,j⦂ℤ·i∈0 ‥ n − 1∧j∈0 ‥ n − 1∧i≤j⇒f(i)≤f(j)" org.eventb.core.source="/binary_search/PRE.buc|org.eventb.core.contextFile#PRE|org.eventb.core.axiom#-"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.parentSet="/binary_search/POST.bpo|org.eventb.core.poFile#POST|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="0">
+        <org.eventb.core.poIdentifier name="p" org.eventb.core.type="ℤ"/>
+        <org.eventb.core.poIdentifier name="q" org.eventb.core.type="ℤ"/>
+        <org.eventb.core.poIdentifier name="r" org.eventb.core.type="ℤ"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poSequent name="INITIALISATION/act1/FIS" org.eventb.core.accurate="true" org.eventb.core.poDesc="Feasibility of action" org.eventb.core.poStamp="0">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/binary_search/POST.bpo|org.eventb.core.poFile#POST|org.eventb.core.poPredicateSet#EVTALLHYPPRI"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="ℤ≠(∅ ⦂ ℙ(ℤ))" org.eventb.core.source="/binary_search/POST.bum|org.eventb.core.machineFile#POST|org.eventb.core.event#'|org.eventb.core.action#'"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/binary_search/POST.bum|org.eventb.core.machineFile#POST|org.eventb.core.event#'|org.eventb.core.action#'"/>
+        <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/binary_search/POST.bpo|org.eventb.core.poFile#POST|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/binary_search/POST.bpo|org.eventb.core.poFile#POST|org.eventb.core.poPredicateSet#EVTALLHYPPRI"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="INITIALISATION/act2/FIS" org.eventb.core.accurate="true" org.eventb.core.poDesc="Feasibility of action" org.eventb.core.poStamp="0">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/binary_search/POST.bpo|org.eventb.core.poFile#POST|org.eventb.core.poPredicateSet#EVTALLHYPPRI"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="ℤ≠(∅ ⦂ ℙ(ℤ))" org.eventb.core.source="/binary_search/POST.bum|org.eventb.core.machineFile#POST|org.eventb.core.event#'|org.eventb.core.action#("/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/binary_search/POST.bum|org.eventb.core.machineFile#POST|org.eventb.core.event#'|org.eventb.core.action#("/>
+        <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/binary_search/POST.bpo|org.eventb.core.poFile#POST|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/binary_search/POST.bpo|org.eventb.core.poFile#POST|org.eventb.core.poPredicateSet#EVTALLHYPPRI"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="INITIALISATION/act3/FIS" org.eventb.core.accurate="true" org.eventb.core.poDesc="Feasibility of action" org.eventb.core.poStamp="0">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/binary_search/POST.bpo|org.eventb.core.poFile#POST|org.eventb.core.poPredicateSet#EVTALLHYPPRI"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="ℤ≠(∅ ⦂ ℙ(ℤ))" org.eventb.core.source="/binary_search/POST.bum|org.eventb.core.machineFile#POST|org.eventb.core.event#'|org.eventb.core.action#)"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/binary_search/POST.bum|org.eventb.core.machineFile#POST|org.eventb.core.event#'|org.eventb.core.action#)"/>
+        <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/binary_search/POST.bpo|org.eventb.core.poFile#POST|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/binary_search/POST.bpo|org.eventb.core.poFile#POST|org.eventb.core.poPredicateSet#EVTALLHYPPRI"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poPredicateSet name="EVTIDENTPRI" org.eventb.core.parentSet="/binary_search/POST.bpo|org.eventb.core.poFile#POST|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="0">
+        <org.eventb.core.poIdentifier name="r'" org.eventb.core.type="ℤ"/>
+        <org.eventb.core.poIdentifier name="p'" org.eventb.core.type="ℤ"/>
+        <org.eventb.core.poIdentifier name="q'" org.eventb.core.type="ℤ"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="EVTALLHYPPRI" org.eventb.core.parentSet="/binary_search/POST.bpo|org.eventb.core.poFile#POST|org.eventb.core.poPredicateSet#EVTIDENTPRI" org.eventb.core.poStamp="0"/>
+    <org.eventb.core.poSequent name="final/grd2/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Guard" org.eventb.core.poStamp="0">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/binary_search/POST.bpo|org.eventb.core.poFile#POST|org.eventb.core.poPredicateSet#EVTHYPPRJ'"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="r∈dom(f)∧f∈ℤ ⇸ ℤ" org.eventb.core.source="/binary_search/POST.bum|org.eventb.core.machineFile#POST|org.eventb.core.event#*|org.eventb.core.guard#("/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/binary_search/POST.bum|org.eventb.core.machineFile#POST|org.eventb.core.event#*|org.eventb.core.guard#("/>
+        <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/binary_search/POST.bpo|org.eventb.core.poFile#POST|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/binary_search/POST.bpo|org.eventb.core.poFile#POST|org.eventb.core.poPredicateSet#EVTHYPPRJ'"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poPredicateSet name="EVTHYPPRJ'" org.eventb.core.parentSet="/binary_search/POST.bpo|org.eventb.core.poFile#POST|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="r∈dom(f)" org.eventb.core.source="/binary_search/POST.bum|org.eventb.core.machineFile#POST|org.eventb.core.event#*|org.eventb.core.guard#'"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="EVTALLHYPPRJ" org.eventb.core.parentSet="/binary_search/POST.bpo|org.eventb.core.poFile#POST|org.eventb.core.poPredicateSet#EVTHYPPRJ'" org.eventb.core.poStamp="0">
+        <org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="f(r)=v" org.eventb.core.source="/binary_search/POST.bum|org.eventb.core.machineFile#POST|org.eventb.core.event#*|org.eventb.core.guard#("/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poSequent name="progress/act1/FIS" org.eventb.core.accurate="true" org.eventb.core.poDesc="Feasibility of action" org.eventb.core.poStamp="0">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/binary_search/POST.bpo|org.eventb.core.poFile#POST|org.eventb.core.poPredicateSet#EVTALLHYPPRK"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="ℤ≠(∅ ⦂ ℙ(ℤ))" org.eventb.core.source="/binary_search/POST.bum|org.eventb.core.machineFile#POST|org.eventb.core.event#+|org.eventb.core.action#'"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/binary_search/POST.bum|org.eventb.core.machineFile#POST|org.eventb.core.event#+|org.eventb.core.action#'"/>
+        <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/binary_search/POST.bpo|org.eventb.core.poFile#POST|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/binary_search/POST.bpo|org.eventb.core.poFile#POST|org.eventb.core.poPredicateSet#EVTALLHYPPRK"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="progress/act2/FIS" org.eventb.core.accurate="true" org.eventb.core.poDesc="Feasibility of action" org.eventb.core.poStamp="0">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/binary_search/POST.bpo|org.eventb.core.poFile#POST|org.eventb.core.poPredicateSet#EVTALLHYPPRK"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="ℤ≠(∅ ⦂ ℙ(ℤ))" org.eventb.core.source="/binary_search/POST.bum|org.eventb.core.machineFile#POST|org.eventb.core.event#+|org.eventb.core.action#("/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/binary_search/POST.bum|org.eventb.core.machineFile#POST|org.eventb.core.event#+|org.eventb.core.action#("/>
+        <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/binary_search/POST.bpo|org.eventb.core.poFile#POST|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/binary_search/POST.bpo|org.eventb.core.poFile#POST|org.eventb.core.poPredicateSet#EVTALLHYPPRK"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="progress/act3/FIS" org.eventb.core.accurate="true" org.eventb.core.poDesc="Feasibility of action" org.eventb.core.poStamp="0">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/binary_search/POST.bpo|org.eventb.core.poFile#POST|org.eventb.core.poPredicateSet#EVTALLHYPPRK"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="ℤ≠(∅ ⦂ ℙ(ℤ))" org.eventb.core.source="/binary_search/POST.bum|org.eventb.core.machineFile#POST|org.eventb.core.event#+|org.eventb.core.action#)"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/binary_search/POST.bum|org.eventb.core.machineFile#POST|org.eventb.core.event#+|org.eventb.core.action#)"/>
+        <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/binary_search/POST.bpo|org.eventb.core.poFile#POST|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/binary_search/POST.bpo|org.eventb.core.poFile#POST|org.eventb.core.poPredicateSet#EVTALLHYPPRK"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poPredicateSet name="EVTIDENTPRK" org.eventb.core.parentSet="/binary_search/POST.bpo|org.eventb.core.poFile#POST|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+        <org.eventb.core.poIdentifier name="r'" org.eventb.core.type="ℤ"/>
+        <org.eventb.core.poIdentifier name="p'" org.eventb.core.type="ℤ"/>
+        <org.eventb.core.poIdentifier name="q'" org.eventb.core.type="ℤ"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="EVTALLHYPPRK" org.eventb.core.parentSet="/binary_search/POST.bpo|org.eventb.core.poFile#POST|org.eventb.core.poPredicateSet#EVTIDENTPRK" org.eventb.core.poStamp="0"/>
+    <org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/binary_search/POST.bpo|org.eventb.core.poFile#POST|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="0">
+        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="r∈ℤ" org.eventb.core.source="/binary_search/POST.bum|org.eventb.core.machineFile#POST|org.eventb.core.invariant#,"/>
+        <org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="p∈ℤ" org.eventb.core.source="/binary_search/POST.bum|org.eventb.core.machineFile#POST|org.eventb.core.invariant#-"/>
+        <org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="q∈ℤ" org.eventb.core.source="/binary_search/POST.bum|org.eventb.core.machineFile#POST|org.eventb.core.invariant#0"/>
+    </org.eventb.core.poPredicateSet>
+</org.eventb.core.poFile>

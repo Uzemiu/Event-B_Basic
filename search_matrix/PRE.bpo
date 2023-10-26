@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="0">
+    <org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.poStamp="0">
+        <org.eventb.core.poIdentifier name="f" org.eventb.core.type="ℙ(ℤ×ℤ×ℤ)"/>
+        <org.eventb.core.poIdentifier name="m" org.eventb.core.type="ℤ"/>
+        <org.eventb.core.poIdentifier name="n" org.eventb.core.type="ℤ"/>
+        <org.eventb.core.poIdentifier name="v" org.eventb.core.type="ℤ"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/search_matrix/PRE.bpo|org.eventb.core.poFile#PRE|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="0">
+        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="m&gt;0" org.eventb.core.source="/search_matrix/PRE.buc|org.eventb.core.contextFile#PRE|org.eventb.core.axiom#+"/>
+        <org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="n&gt;0" org.eventb.core.source="/search_matrix/PRE.buc|org.eventb.core.contextFile#PRE|org.eventb.core.axiom#,"/>
+        <org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="f∈0 ‥ m − 1 × 0 ‥ n − 1 → ℕ" org.eventb.core.source="/search_matrix/PRE.buc|org.eventb.core.contextFile#PRE|org.eventb.core.axiom#-"/>
+        <org.eventb.core.poPredicate name="PRD3" org.eventb.core.predicate="v∈ran(f)" org.eventb.core.source="/search_matrix/PRE.buc|org.eventb.core.contextFile#PRE|org.eventb.core.axiom#."/>
+    </org.eventb.core.poPredicateSet>
+</org.eventb.core.poFile>
