@@ -10,10 +10,10 @@
     <org.eventb.core.variable name="E" org.eventb.core.identifier="il_pass"/>
     <org.eventb.core.variable name="G" org.eventb.core.identifier="ml_pass"/>
     <org.eventb.core.event name="H" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="INITIALISATION">
-        <org.eventb.core.action name="'" org.eventb.core.assignment="ML_OUT_SR ≔ on" org.eventb.core.label="act9"/>
-        <org.eventb.core.action name="(" org.eventb.core.assignment="ML_IN_SR ≔ on" org.eventb.core.label="act10"/>
-        <org.eventb.core.action name=")" org.eventb.core.assignment="IL_OUT_SR ≔ on" org.eventb.core.label="act11"/>
-        <org.eventb.core.action name="*" org.eventb.core.assignment="IL_IN_SR ≔ on" org.eventb.core.label="act12"/>
+        <org.eventb.core.action name="'" org.eventb.core.assignment="ML_OUT_SR ≔ off" org.eventb.core.label="act9"/>
+        <org.eventb.core.action name="(" org.eventb.core.assignment="ML_IN_SR ≔ off" org.eventb.core.label="act10"/>
+        <org.eventb.core.action name=")" org.eventb.core.assignment="IL_OUT_SR ≔ off" org.eventb.core.label="act11"/>
+        <org.eventb.core.action name="*" org.eventb.core.assignment="IL_IN_SR ≔ off" org.eventb.core.label="act12"/>
         <org.eventb.core.action name="+" org.eventb.core.assignment="A ≔ 0" org.eventb.core.label="act13"/>
         <org.eventb.core.action name="," org.eventb.core.assignment="B ≔ 0" org.eventb.core.label="act14"/>
         <org.eventb.core.action name="-" org.eventb.core.assignment="C ≔ 0" org.eventb.core.label="act15"/>
@@ -33,7 +33,7 @@
     <org.eventb.core.event name="J" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="ML_out_2">
         <org.eventb.core.refinesEvent name="'" org.eventb.core.target="ML_out_2"/>
         <org.eventb.core.action name="(" org.eventb.core.assignment="a ≔ a + 1" org.eventb.core.label="act2"/>
-        <org.eventb.core.guard name="grd1" org.eventb.core.label="grd2" org.eventb.core.predicate="ml_tl = green"/>
+        <org.eventb.core.guard name="grd1" org.eventb.core.label="grd2" org.eventb.core.predicate="ml_out_10 = TRUE"/>
         <org.eventb.core.guard name="*" org.eventb.core.label="grd3" org.eventb.core.predicate="a + b + 1 = d"/>
         <org.eventb.core.action name="grd2" org.eventb.core.assignment="ml_tl ≔ red" org.eventb.core.label="act3"/>
         <org.eventb.core.action name="act1" org.eventb.core.assignment="ml_pass ≔ 1" org.eventb.core.label="act4"/>
@@ -134,10 +134,10 @@
     <org.eventb.core.invariant name="u" org.eventb.core.label="inv26" org.eventb.core.predicate="il_in_10 = TRUE ∧ il_out_10 = FALSE ⇒ B = b + 1"/>
     <org.eventb.core.invariant name="v" org.eventb.core.label="inv27" org.eventb.core.predicate="il_in_10 = FALSE ∧ il_out_10 = TRUE ⇒ B = b − 1"/>
     <org.eventb.core.invariant name="w" org.eventb.core.label="inv28" org.eventb.core.predicate="il_in_10 = FALSE ∧ il_out_10 = FALSE ⇒ B = b"/>
-    <org.eventb.core.invariant name="x" org.eventb.core.label="inv29" org.eventb.core.predicate="il_out_10 = TRUE ∧ ml_out_10 = TRUE ⇒ C = c"/>
-    <org.eventb.core.invariant name="y" org.eventb.core.label="inv30" org.eventb.core.predicate="il_out_10 = TRUE ∧ ml_out_10 = FALSE ⇒ C = c + 1"/>
-    <org.eventb.core.invariant name="z" org.eventb.core.label="inv31" org.eventb.core.predicate="il_out_10 = FALSE ∧ ml_out_10 = TRUE ⇒ C = c − 1"/>
-    <org.eventb.core.invariant name="{" org.eventb.core.label="inv32" org.eventb.core.predicate="il_out_10 = FALSE ∧ ml_out_10 = FALSE ⇒ C = c"/>
+    <org.eventb.core.invariant name="x" org.eventb.core.label="inv29" org.eventb.core.predicate="il_out_10 = TRUE ∧ ml_in_10 = TRUE ⇒ C = c"/>
+    <org.eventb.core.invariant name="y" org.eventb.core.label="inv30" org.eventb.core.predicate="il_out_10 = TRUE ∧ ml_in_10 = FALSE ⇒ C = c + 1"/>
+    <org.eventb.core.invariant name="z" org.eventb.core.label="inv31" org.eventb.core.predicate="il_out_10 = FALSE ∧ ml_in_10 = TRUE ⇒ C = c − 1"/>
+    <org.eventb.core.invariant name="{" org.eventb.core.label="inv32" org.eventb.core.predicate="il_out_10 = FALSE ∧ ml_in_10 = FALSE ⇒ C = c"/>
     <org.eventb.core.invariant name="|" org.eventb.core.comment=" The bridge is one way or the other, not both at the same time " org.eventb.core.label="inv33" org.eventb.core.predicate="A = 0 ∨ C = 0"/>
     <org.eventb.core.invariant name="}" org.eventb.core.comment=" The number of cars on the bridge and the island is limited" org.eventb.core.label="inv34" org.eventb.core.predicate="A + B + C ≤ d"/>
     <org.eventb.core.event name="~" org.eventb.core.comment="  PHYSICAL Events" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="ML_out_arr">
@@ -163,7 +163,7 @@
         <org.eventb.core.guard name=")" org.eventb.core.label="grd3" org.eventb.core.predicate="B &gt; 0"/>
         <org.eventb.core.action name="*" org.eventb.core.assignment="IL_OUT_SR ≔ on" org.eventb.core.label="act1"/>
     </org.eventb.core.event>
-    <org.eventb.core.event name="'*" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="ML_out_dep">
+    <org.eventb.core.event name="'*" org.eventb.core.comment="  PHYSICAL Events" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="ML_out_dep">
         <org.eventb.core.guard name="'" org.eventb.core.label="grd1" org.eventb.core.predicate="ML_OUT_SR = on"/>
         <org.eventb.core.guard name="(" org.eventb.core.label="grd2" org.eventb.core.predicate="ml_tl = green"/>
         <org.eventb.core.action name=")" org.eventb.core.assignment="ML_OUT_SR ≔ off" org.eventb.core.label="act1"/>
