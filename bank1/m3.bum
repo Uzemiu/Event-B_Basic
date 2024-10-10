@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.machineFile org.eventb.core.configuration="org.eventb.core.fwd" version="5">
+<org.eventb.core.refinesMachine name="'" org.eventb.core.target="m2"/>
+<org.eventb.core.seesContext name="*" org.eventb.core.target="c3"/>
+<org.eventb.core.variable name="(" org.eventb.core.identifier="account"/>
+<org.eventb.core.variable name="+" org.eventb.core.identifier="balance"/>
+<org.eventb.core.variable name="-" org.eventb.core.identifier="owner"/>
+<org.eventb.core.variable name="4" org.eventb.core.identifier="tr"/>
+<org.eventb.core.variable name="5" org.eventb.core.identifier="atr"/>
+<org.eventb.core.variable name="6" org.eventb.core.identifier="mtr"/>
+<org.eventb.core.variable name="@" org.eventb.core.identifier="type"/>
+<org.eventb.core.event name="A" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="INITIALISATION">
+<org.eventb.core.action name="'" org.eventb.core.assignment="tTime ≔ ∅" org.eventb.core.label="act10"/>
+<org.eventb.core.action name="(" org.eventb.core.assignment="cTime ≔ 1" org.eventb.core.label="act9"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="B" org.eventb.core.comment="FUN-1" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="open">
+<org.eventb.core.refinesEvent name="'" org.eventb.core.target="open"/>
+<org.eventb.core.action name="(" org.eventb.core.assignment="cTime ≔ cTime + 1" org.eventb.core.label="act5"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="C" org.eventb.core.comment="FUN-1,2" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="close">
+<org.eventb.core.refinesEvent name="'" org.eventb.core.target="close"/>
+<org.eventb.core.action name="act1" org.eventb.core.assignment="cTime ≔ cTime + 1" org.eventb.core.label="act5"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="D" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="deposit">
+<org.eventb.core.refinesEvent name="'" org.eventb.core.target="deposit"/>
+<org.eventb.core.action name="act1" org.eventb.core.assignment="cTime ≔ cTime + 1" org.eventb.core.label="act5"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="E" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="withdraw">
+<org.eventb.core.refinesEvent name="'" org.eventb.core.target="withdraw"/>
+<org.eventb.core.action name="act1" org.eventb.core.assignment="cTime ≔ cTime + 1" org.eventb.core.label="act5"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="F" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="transfer1">
+<org.eventb.core.refinesEvent name="'" org.eventb.core.target="transfer1"/>
+<org.eventb.core.action name=")" org.eventb.core.assignment="tTime ≔ tTime ∪ {t↦cTime}" org.eventb.core.label="act6"/>
+<org.eventb.core.action name="(" org.eventb.core.assignment="cTime ≔ cTime + 1" org.eventb.core.label="act7"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="G" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="transfer2">
+<org.eventb.core.refinesEvent name="'" org.eventb.core.target="transfer2"/>
+<org.eventb.core.guard name="(" org.eventb.core.label="grd3" org.eventb.core.predicate="tTime(t) + ttl ≤ cTime"/>
+<org.eventb.core.action name="*" org.eventb.core.assignment="cTime ≔ cTime + 1" org.eventb.core.label="act6"/>
+<org.eventb.core.action name="act1" org.eventb.core.assignment="tTime ≔ {t} ⩤ tTime" org.eventb.core.label="act7"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="evt1" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="abort">
+<org.eventb.core.guard name="(" org.eventb.core.label="grd3" org.eventb.core.predicate="tTime(t) + ttl &gt; cTime"/>
+<org.eventb.core.action name=")" org.eventb.core.assignment="tTime ≔ {t} ⩤ tTime" org.eventb.core.label="act5"/>
+<org.eventb.core.action name="*" org.eventb.core.assignment="cTime ≔ cTime + 1" org.eventb.core.label="act6"/>
+<org.eventb.core.refinesEvent name="4" org.eventb.core.target="abort"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="H" org.eventb.core.comment=" FUN-5" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="save">
+<org.eventb.core.refinesEvent name="'" org.eventb.core.target="save"/>
+<org.eventb.core.action name="act1" org.eventb.core.assignment="tTime ≔ tTime ∪ {t↦cTime}" org.eventb.core.label="act6"/>
+<org.eventb.core.action name="act2" org.eventb.core.assignment="cTime ≔ cTime + 1" org.eventb.core.label="act7"/>
+</org.eventb.core.event>
+<org.eventb.core.invariant name="I" org.eventb.core.label="inv1" org.eventb.core.predicate="tTime ∈ tr → ℕ "/>
+<org.eventb.core.variable name="evt2" org.eventb.core.identifier="satr"/>
+<org.eventb.core.variable name="J" org.eventb.core.comment="transaction begin time" org.eventb.core.identifier="tTime"/>
+<org.eventb.core.variable name="K" org.eventb.core.comment="current time" org.eventb.core.identifier="cTime"/>
+<org.eventb.core.invariant name="L" org.eventb.core.label="inv2" org.eventb.core.predicate="cTime ∈ ℕ "/>
+<org.eventb.core.invariant name="evt3" org.eventb.core.label="inv3" org.eventb.core.predicate="satr ∈ tr → account"/>
+</org.eventb.core.machineFile>

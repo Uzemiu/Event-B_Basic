@@ -9,6 +9,7 @@
 <org.eventb.core.action name="'" org.eventb.core.assignment="tr ≔ ∅" org.eventb.core.label="act4"/>
 <org.eventb.core.action name="(" org.eventb.core.assignment="atr ≔ ∅" org.eventb.core.label="act5"/>
 <org.eventb.core.action name=")" org.eventb.core.assignment="mtr ≔ ∅" org.eventb.core.label="act6"/>
+<org.eventb.core.action name="*" org.eventb.core.assignment="satr ≔ ∅" org.eventb.core.label="act7"/>
 </org.eventb.core.event>
 <org.eventb.core.event name="/" org.eventb.core.comment="FUN-1" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="open">
 <org.eventb.core.refinesEvent name="'" org.eventb.core.target="open"/>
@@ -16,6 +17,7 @@
 <org.eventb.core.event name="0" org.eventb.core.comment="FUN-1,2" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="close">
 <org.eventb.core.refinesEvent name="'" org.eventb.core.target="close"/>
 <org.eventb.core.guard name="(" org.eventb.core.label="grd3" org.eventb.core.predicate="a ∉ ran(atr)"/>
+<org.eventb.core.guard name=")" org.eventb.core.label="grd4" org.eventb.core.predicate="a ∉ ran(satr)"/>
 </org.eventb.core.event>
 <org.eventb.core.event name="1" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="deposit">
 <org.eventb.core.refinesEvent name="'" org.eventb.core.target="deposit"/>
@@ -39,6 +41,7 @@
 <org.eventb.core.guard name="1" org.eventb.core.label="grd5" org.eventb.core.predicate="t ∈ T ∧ t ∉ tr"/>
 <org.eventb.core.action name="2" org.eventb.core.assignment="atr ≔ atr ∪ {t↦b}" org.eventb.core.label="act3"/>
 <org.eventb.core.action name="3" org.eventb.core.assignment="mtr ≔ mtr ∪ {t↦m}" org.eventb.core.label="act4"/>
+<org.eventb.core.action name="5" org.eventb.core.assignment="satr ≔ satr ∪ {t↦a}" org.eventb.core.label="act5"/>
 </org.eventb.core.event>
 <org.eventb.core.variable name="4" org.eventb.core.identifier="tr"/>
 <org.eventb.core.variable name="5" org.eventb.core.identifier="atr"/>
@@ -57,6 +60,22 @@
 <org.eventb.core.action name="0" org.eventb.core.assignment="tr ≔ tr ∖{t}" org.eventb.core.label="act2"/>
 <org.eventb.core.action name="1" org.eventb.core.assignment="atr ≔ {t} ⩤ atr" org.eventb.core.label="act3"/>
 <org.eventb.core.action name="2" org.eventb.core.assignment="mtr ≔ {t} ⩤ mtr" org.eventb.core.label="act4"/>
+<org.eventb.core.action name="3" org.eventb.core.assignment="satr ≔ {t} ⩤ satr" org.eventb.core.label="act5"/>
 </org.eventb.core.event>
 <org.eventb.core.invariant name=";" org.eventb.core.label="inv4" org.eventb.core.predicate="∀t·t∈dom(mtr) ⇒ mtr(t)&gt;0"/>
+<org.eventb.core.event name="evt1" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="abort">
+<org.eventb.core.guard name=")" org.eventb.core.label="grd1" org.eventb.core.predicate="t ∈ tr"/>
+<org.eventb.core.action name="+" org.eventb.core.assignment="balance(satr(t)) ≔ balance(satr(t)) + mtr(t)" org.eventb.core.label="act1"/>
+<org.eventb.core.parameter name="-" org.eventb.core.identifier="t"/>
+<org.eventb.core.action name="0" org.eventb.core.assignment="tr ≔ tr ∖{t}" org.eventb.core.label="act2"/>
+<org.eventb.core.action name="1" org.eventb.core.assignment="atr ≔ {t} ⩤ atr" org.eventb.core.label="act3"/>
+<org.eventb.core.action name="2" org.eventb.core.assignment="mtr ≔ {t} ⩤ mtr" org.eventb.core.label="act4"/>
+<org.eventb.core.guard name="7" org.eventb.core.label="grd4" org.eventb.core.predicate="balance(satr(t)) + mtr(t) ≤ limit"/>
+<org.eventb.core.action name="3" org.eventb.core.assignment="satr ≔ {t} ⩤ satr" org.eventb.core.label="act7"/>
+<org.eventb.core.refinesEvent name="4" org.eventb.core.target="deposit"/>
+<org.eventb.core.witness name="8" org.eventb.core.label="a" org.eventb.core.predicate="a = satr(t)"/>
+<org.eventb.core.witness name="9" org.eventb.core.label="m" org.eventb.core.predicate="m = mtr(t)"/>
+</org.eventb.core.event>
+<org.eventb.core.variable name="evt2" org.eventb.core.identifier="satr"/>
+<org.eventb.core.invariant name="evt3" org.eventb.core.label="inv5" org.eventb.core.predicate="satr ∈ tr → account"/>
 </org.eventb.core.machineFile>
