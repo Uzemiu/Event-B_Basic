@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.scContextFile org.eventb.core.accurate="true" org.eventb.core.configuration="org.eventb.core.fwd">
+<org.eventb.core.scExtendsContext name="'" org.eventb.core.scTarget="/car/c2.bcc|org.eventb.core.scContextFile#c2" org.eventb.core.source="/car/c3.buc|org.eventb.core.contextFile#c3|org.eventb.core.extendsContext#'"/>
+<org.eventb.core.scInternalContext name="c0">
+<org.eventb.core.scAxiom name="'" org.eventb.core.label="axm0_1" org.eventb.core.predicate="d∈ℕ" org.eventb.core.source="/car/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#(" org.eventb.core.theorem="false"/>
+<org.eventb.core.scAxiom name="(" org.eventb.core.label="axm0_2" org.eventb.core.predicate="d&gt;0" org.eventb.core.source="/car/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#)" org.eventb.core.theorem="false"/>
+<org.eventb.core.scConstant name="d" org.eventb.core.source="/car/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#'" org.eventb.core.type="ℤ"/>
+</org.eventb.core.scInternalContext>
+<org.eventb.core.scInternalContext name="c1">
+<org.eventb.core.scExtendsContext name="'" org.eventb.core.scTarget="/car/c0.bcc|org.eventb.core.scContextFile#c0" org.eventb.core.source="/car/c1.buc|org.eventb.core.contextFile#c1|org.eventb.core.extendsContext#'"/>
+</org.eventb.core.scInternalContext>
+<org.eventb.core.scInternalContext name="c2">
+<org.eventb.core.scExtendsContext name="'" org.eventb.core.scTarget="/car/c1.bcc|org.eventb.core.scContextFile#c1" org.eventb.core.source="/car/c2.buc|org.eventb.core.contextFile#c2|org.eventb.core.extendsContext#'"/>
+<org.eventb.core.scAxiom name="c2" org.eventb.core.label="axm1" org.eventb.core.predicate="partition(Color,{green},{red})" org.eventb.core.source="/car/c2.buc|org.eventb.core.contextFile#c2|org.eventb.core.axiom#+" org.eventb.core.theorem="false"/>
+<org.eventb.core.scCarrierSet name="Color" org.eventb.core.source="/car/c2.buc|org.eventb.core.contextFile#c2|org.eventb.core.carrierSet#(" org.eventb.core.type="ℙ(Color)"/>
+<org.eventb.core.scConstant name="green" org.eventb.core.source="/car/c2.buc|org.eventb.core.contextFile#c2|org.eventb.core.constant#)" org.eventb.core.type="Color"/>
+<org.eventb.core.scConstant name="red" org.eventb.core.source="/car/c2.buc|org.eventb.core.contextFile#c2|org.eventb.core.constant#*" org.eventb.core.type="Color"/>
+</org.eventb.core.scInternalContext>
+<org.eventb.core.scAxiom name="c3" org.eventb.core.label="axm1" org.eventb.core.predicate="partition(SENSOR,{on},{off})" org.eventb.core.source="/car/c3.buc|org.eventb.core.contextFile#c3|org.eventb.core.axiom#+" org.eventb.core.theorem="false"/>
+<org.eventb.core.scCarrierSet name="SENSOR" org.eventb.core.source="/car/c3.buc|org.eventb.core.contextFile#c3|org.eventb.core.carrierSet#(" org.eventb.core.type="ℙ(SENSOR)"/>
+<org.eventb.core.scConstant name="off" org.eventb.core.source="/car/c3.buc|org.eventb.core.contextFile#c3|org.eventb.core.constant#*" org.eventb.core.type="SENSOR"/>
+<org.eventb.core.scConstant name="on" org.eventb.core.source="/car/c3.buc|org.eventb.core.contextFile#c3|org.eventb.core.constant#)" org.eventb.core.type="SENSOR"/>
+</org.eventb.core.scContextFile>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="D" org.eventb.core.type="ℙ(D)"/>
+<org.eventb.core.poIdentifier name="A" org.eventb.core.type="ℙ(D)"/>
+<org.eventb.core.poIdentifier name="p" org.eventb.core.type="D"/>
+<org.eventb.core.poIdentifier name="q" org.eventb.core.type="D"/>
+<org.eventb.core.poIdentifier name="r" org.eventb.core.type="D"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/manual_proof/Setting.bpo|org.eventb.core.poFile#Setting|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="A⊆D" org.eventb.core.source="/manual_proof/Setting.buc|org.eventb.core.contextFile#Setting|org.eventb.core.axiom#,"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="p∈D" org.eventb.core.source="/manual_proof/Setting.buc|org.eventb.core.contextFile#Setting|org.eventb.core.axiom#-"/>
+<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="q∈D" org.eventb.core.source="/manual_proof/Setting.buc|org.eventb.core.contextFile#Setting|org.eventb.core.axiom#."/>
+<org.eventb.core.poPredicate name="PRD3" org.eventb.core.predicate="r∈D" org.eventb.core.source="/manual_proof/Setting.buc|org.eventb.core.contextFile#Setting|org.eventb.core.axiom#\/"/>
+</org.eventb.core.poPredicateSet>
+</org.eventb.core.poFile>

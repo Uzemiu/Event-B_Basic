@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.contextFile org.eventb.core.configuration="org.eventb.core.fwd" version="3">
+    <org.eventb.core.extendsContext name="'" org.eventb.core.target="PredicateSetting"/>
+    <org.eventb.core.axiom name="(" org.eventb.core.label="hyp1" org.eventb.core.predicate="∀x,y,z·x↦y∈R ∧ y↦z∈R ⇒ x↦z∈R"/>
+    <org.eventb.core.axiom name=")" org.eventb.core.label="hyp2" org.eventb.core.predicate="∀x,y·x↦y∈R ⇒ y↦x∈R"/>
+    <org.eventb.core.axiom name="*" org.eventb.core.label="hyp3" org.eventb.core.predicate="∀x·(∃y·x↦y∈R)"/>
+    <org.eventb.core.axiom name="+" org.eventb.core.label="goal1" org.eventb.core.predicate="∀x·(x↦x∈R)" org.eventb.core.theorem="true"/>
+</org.eventb.core.contextFile>

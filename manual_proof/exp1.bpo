@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="D" org.eventb.core.type="ℙ(D)"/>
+<org.eventb.core.poIdentifier name="A" org.eventb.core.type="ℙ(D)"/>
+<org.eventb.core.poIdentifier name="p" org.eventb.core.type="D"/>
+<org.eventb.core.poIdentifier name="q" org.eventb.core.type="D"/>
+<org.eventb.core.poIdentifier name="r" org.eventb.core.type="D"/>
+<org.eventb.core.poPredicate name="s" org.eventb.core.predicate="A⊆D" org.eventb.core.source="/manual_proof/Setting.buc|org.eventb.core.contextFile#Setting|org.eventb.core.axiom#,"/>
+<org.eventb.core.poPredicate name="t" org.eventb.core.predicate="p∈D" org.eventb.core.source="/manual_proof/Setting.buc|org.eventb.core.contextFile#Setting|org.eventb.core.axiom#-"/>
+<org.eventb.core.poPredicate name="u" org.eventb.core.predicate="q∈D" org.eventb.core.source="/manual_proof/Setting.buc|org.eventb.core.contextFile#Setting|org.eventb.core.axiom#."/>
+<org.eventb.core.poPredicate name="v" org.eventb.core.predicate="r∈D" org.eventb.core.source="/manual_proof/Setting.buc|org.eventb.core.contextFile#Setting|org.eventb.core.axiom#\/"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="goal1/THM" org.eventb.core.accurate="true" org.eventb.core.poDesc="Theorem" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/manual_proof/exp1.bpo|org.eventb.core.poFile#exp1|org.eventb.core.poPredicateSet#HYPSettinh"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="¬p∈A∨¬q∈A" org.eventb.core.source="/manual_proof/exp1.buc|org.eventb.core.contextFile#exp1|org.eventb.core.axiom#("/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/manual_proof/exp1.buc|org.eventb.core.contextFile#exp1|org.eventb.core.axiom#("/>
+<org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/manual_proof/exp1.bpo|org.eventb.core.poFile#exp1|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poSelHintSnd="/manual_proof/exp1.bpo|org.eventb.core.poFile#exp1|org.eventb.core.poPredicateSet#HYPSettinh"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="HYPSettinh" org.eventb.core.parentSet="/manual_proof/exp1.bpo|org.eventb.core.poFile#exp1|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="¬(p∈A∧q∈A)" org.eventb.core.source="/manual_proof/exp1.buc|org.eventb.core.contextFile#exp1|org.eventb.core.axiom#'"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/manual_proof/exp1.bpo|org.eventb.core.poFile#exp1|org.eventb.core.poPredicateSet#HYPSettinh" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="¬p∈A∨¬q∈A" org.eventb.core.source="/manual_proof/exp1.buc|org.eventb.core.contextFile#exp1|org.eventb.core.axiom#("/>
+</org.eventb.core.poPredicateSet>
+</org.eventb.core.poFile>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.scContextFile org.eventb.core.accurate="true" org.eventb.core.configuration="org.eventb.core.fwd">
+<org.eventb.core.scExtendsContext name="'" org.eventb.core.scTarget="/manual_proof/Setting.bcc|org.eventb.core.scContextFile#Setting" org.eventb.core.source="/manual_proof/exp3.buc|org.eventb.core.contextFile#exp3|org.eventb.core.extendsContext#)"/>
+<org.eventb.core.scInternalContext name="Setting">
+<org.eventb.core.scAxiom name="'" org.eventb.core.label="axm1" org.eventb.core.predicate="A⊆D" org.eventb.core.source="/manual_proof/Setting.buc|org.eventb.core.contextFile#Setting|org.eventb.core.axiom#," org.eventb.core.theorem="false"/>
+<org.eventb.core.scAxiom name="(" org.eventb.core.label="axm2" org.eventb.core.predicate="p∈D" org.eventb.core.source="/manual_proof/Setting.buc|org.eventb.core.contextFile#Setting|org.eventb.core.axiom#-" org.eventb.core.theorem="false"/>
+<org.eventb.core.scAxiom name=")" org.eventb.core.label="axm3" org.eventb.core.predicate="q∈D" org.eventb.core.source="/manual_proof/Setting.buc|org.eventb.core.contextFile#Setting|org.eventb.core.axiom#." org.eventb.core.theorem="false"/>
+<org.eventb.core.scAxiom name="*" org.eventb.core.label="axm4" org.eventb.core.predicate="r∈D" org.eventb.core.source="/manual_proof/Setting.buc|org.eventb.core.contextFile#Setting|org.eventb.core.axiom#\/" org.eventb.core.theorem="false"/>
+<org.eventb.core.scConstant name="A" org.eventb.core.source="/manual_proof/Setting.buc|org.eventb.core.contextFile#Setting|org.eventb.core.constant#+" org.eventb.core.type="ℙ(D)"/>
+<org.eventb.core.scCarrierSet name="D" org.eventb.core.source="/manual_proof/Setting.buc|org.eventb.core.contextFile#Setting|org.eventb.core.carrierSet#'" org.eventb.core.type="ℙ(D)"/>
+<org.eventb.core.scConstant name="p" org.eventb.core.source="/manual_proof/Setting.buc|org.eventb.core.contextFile#Setting|org.eventb.core.constant#(" org.eventb.core.type="D"/>
+<org.eventb.core.scConstant name="q" org.eventb.core.source="/manual_proof/Setting.buc|org.eventb.core.contextFile#Setting|org.eventb.core.constant#)" org.eventb.core.type="D"/>
+<org.eventb.core.scConstant name="r" org.eventb.core.source="/manual_proof/Setting.buc|org.eventb.core.contextFile#Setting|org.eventb.core.constant#*" org.eventb.core.type="D"/>
+</org.eventb.core.scInternalContext>
+<org.eventb.core.scAxiom name="Settinh" org.eventb.core.label="hyp1" org.eventb.core.predicate="p∈A∨r∈A" org.eventb.core.source="/manual_proof/exp3.buc|org.eventb.core.contextFile#exp3|org.eventb.core.axiom#'" org.eventb.core.theorem="false"/>
+<org.eventb.core.scAxiom name="Settini" org.eventb.core.label="hyp2" org.eventb.core.predicate="q∈A∨r∈A" org.eventb.core.source="/manual_proof/exp3.buc|org.eventb.core.contextFile#exp3|org.eventb.core.axiom#*" org.eventb.core.theorem="false"/>
+<org.eventb.core.scAxiom name="Settinj" org.eventb.core.label="goal1" org.eventb.core.predicate="(p∈A∧q∈A)∨r∈A" org.eventb.core.source="/manual_proof/exp3.buc|org.eventb.core.contextFile#exp3|org.eventb.core.axiom#(" org.eventb.core.theorem="true"/>
+</org.eventb.core.scContextFile>

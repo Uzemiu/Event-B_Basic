@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.machineFile org.eventb.core.configuration="org.eventb.core.fwd" version="5">
+    <org.eventb.core.refinesMachine name="'" org.eventb.core.target="POST"/>
+    <org.eventb.core.seesContext name="+" org.eventb.core.target="PRE"/>
+    <org.eventb.core.variable name="-" org.eventb.core.identifier="g"/>
+    <org.eventb.core.event name="." org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="INITIALISATION">
+        <org.eventb.core.action name="'" org.eventb.core.assignment="g ≔ f" org.eventb.core.label="act1"/>
+        <org.eventb.core.action name=")" org.eventb.core.assignment="i ≔ 0" org.eventb.core.label="act2"/>
+        <org.eventb.core.action name="(" org.eventb.core.assignment="j ≔ n − 1" org.eventb.core.label="act3"/>
+    </org.eventb.core.event>
+    <org.eventb.core.event name="/" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="final">
+        <org.eventb.core.refinesEvent name="'" org.eventb.core.target="final"/>
+        <org.eventb.core.guard name="'" org.eventb.core.label="grd1" org.eventb.core.predicate="i ≥ j"/>
+    </org.eventb.core.event>
+    <org.eventb.core.event name="0" org.eventb.core.convergence="1" org.eventb.core.extended="false" org.eventb.core.label="progress">
+        <org.eventb.core.refinesEvent name="'" org.eventb.core.target="progress"/>
+        <org.eventb.core.action name="'" org.eventb.core.assignment="g ≔ g  {i↦g(j), j↦g(i)}" org.eventb.core.label="act1"/>
+        <org.eventb.core.guard name="(" org.eventb.core.label="grd1" org.eventb.core.predicate="i &lt; j"/>
+        <org.eventb.core.action name=")" org.eventb.core.assignment="i ≔ i + 1" org.eventb.core.label="act2"/>
+        <org.eventb.core.action name="*" org.eventb.core.assignment="j ≔ j − 1" org.eventb.core.label="act3"/>
+    </org.eventb.core.event>
+    <org.eventb.core.variable name="1" org.eventb.core.identifier="i"/>
+    <org.eventb.core.variable name="2" org.eventb.core.identifier="j"/>
+    <org.eventb.core.invariant name="3" org.eventb.core.label="inv1" org.eventb.core.predicate="g ∈ 0‥n−1 → ℕ"/>
+    <org.eventb.core.invariant name="4" org.eventb.core.label="inv2" org.eventb.core.predicate="i ∈ 0‥n−1"/>
+    <org.eventb.core.invariant name="5" org.eventb.core.label="inv3" org.eventb.core.predicate="j ∈ 0‥n−1"/>
+    <org.eventb.core.invariant name="6" org.eventb.core.label="inv4" org.eventb.core.predicate="i ≤ j + 1"/>
+    <org.eventb.core.invariant name="7" org.eventb.core.label="inv5" org.eventb.core.predicate="i + j = n − 1"/>
+    <org.eventb.core.invariant name="8" org.eventb.core.label="inv6" org.eventb.core.predicate="∀k·k∈0‥i−1 ⇒ g(k) = f(n−k−1)"/>
+    <org.eventb.core.invariant name=":" org.eventb.core.label="inv8" org.eventb.core.predicate="∀k·k∈i‥j ⇒ g(k) = f(k)"/>
+    <org.eventb.core.invariant name="9" org.eventb.core.label="inv7" org.eventb.core.predicate="∀k·k∈j+1‥n−1 ⇒ g(k) = f(n−k−1)"/>
+    <org.eventb.core.variant name=";" org.eventb.core.expression="j − i + 1" org.eventb.core.label="vrn1"/>
+</org.eventb.core.machineFile>
