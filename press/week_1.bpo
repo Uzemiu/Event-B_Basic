@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicateSet name="CTXHYP" org.eventb.core.poStamp="0"/>
+<org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.parentSet="/press/week_1.bpo|org.eventb.core.poFile#week_1|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="1">
+<org.eventb.core.poIdentifier name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="ca" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="cr" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="r" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poPredicate name="cs" org.eventb.core.predicate="a∈{0,1}" org.eventb.core.source="/press/week_0.bum|org.eventb.core.machineFile#week_0|org.eventb.core.invariant#*"/>
+<org.eventb.core.poPredicate name="ct" org.eventb.core.predicate="r∈{0,1}" org.eventb.core.source="/press/week_0.bum|org.eventb.core.machineFile#week_0|org.eventb.core.invariant#+"/>
+<org.eventb.core.poPredicate name="cu" org.eventb.core.predicate="ca∈ℕ" org.eventb.core.source="/press/week_0.bum|org.eventb.core.machineFile#week_0|org.eventb.core.invariant#-"/>
+<org.eventb.core.poPredicate name="cv" org.eventb.core.predicate="cr∈ℕ" org.eventb.core.source="/press/week_0.bum|org.eventb.core.machineFile#week_0|org.eventb.core.invariant#\/"/>
+<org.eventb.core.poPredicate name="cw" org.eventb.core.predicate="cr≤ca" org.eventb.core.source="/press/week_0.bum|org.eventb.core.machineFile#week_0|org.eventb.core.invariant#0"/>
+<org.eventb.core.poPredicate name="cx" org.eventb.core.predicate="r=0∧a=1⇒cr&lt;ca" org.eventb.core.source="/press/week_0.bum|org.eventb.core.machineFile#week_0|org.eventb.core.invariant#5"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTcs" org.eventb.core.parentSet="/press/week_1.bpo|org.eventb.core.poFile#week_1|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="cr'" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="ca'" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="r'" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="a'" org.eventb.core.type="ℤ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPcs" org.eventb.core.parentSet="/press/week_1.bpo|org.eventb.core.poFile#week_1|org.eventb.core.poPredicateSet#EVTIDENTcs" org.eventb.core.poStamp="0"/>
+<org.eventb.core.poPredicateSet name="EVTIDENTct" org.eventb.core.parentSet="/press/week_1.bpo|org.eventb.core.poFile#week_1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="1">
+<org.eventb.core.poIdentifier name="ca'" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="a'" org.eventb.core.type="ℤ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPct" org.eventb.core.parentSet="/press/week_1.bpo|org.eventb.core.poFile#week_1|org.eventb.core.poPredicateSet#EVTIDENTct" org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="a=0" org.eventb.core.source="/press/week_1.bum|org.eventb.core.machineFile#week_1|org.eventb.core.event#0|org.eventb.core.guard#'"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTcu" org.eventb.core.parentSet="/press/week_1.bpo|org.eventb.core.poFile#week_1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="1">
+<org.eventb.core.poIdentifier name="a'" org.eventb.core.type="ℤ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPcu" org.eventb.core.parentSet="/press/week_1.bpo|org.eventb.core.poFile#week_1|org.eventb.core.poPredicateSet#EVTIDENTcu" org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="a=1" org.eventb.core.source="/press/week_0.bum|org.eventb.core.machineFile#week_0|org.eventb.core.event#2|org.eventb.core.guard#'"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTcv" org.eventb.core.parentSet="/press/week_1.bpo|org.eventb.core.poFile#week_1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="1">
+<org.eventb.core.poIdentifier name="cr'" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="r'" org.eventb.core.type="ℤ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPcv" org.eventb.core.parentSet="/press/week_1.bpo|org.eventb.core.poFile#week_1|org.eventb.core.poPredicateSet#EVTIDENTcv" org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="r=0" org.eventb.core.source="/press/week_1.bum|org.eventb.core.machineFile#week_1|org.eventb.core.event#2|org.eventb.core.guard#'"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="a=1" org.eventb.core.source="/press/week_1.bum|org.eventb.core.machineFile#week_1|org.eventb.core.event#2|org.eventb.core.guard#("/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTcw" org.eventb.core.parentSet="/press/week_1.bpo|org.eventb.core.poFile#week_1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="1">
+<org.eventb.core.poIdentifier name="r'" org.eventb.core.type="ℤ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPcw" org.eventb.core.parentSet="/press/week_1.bpo|org.eventb.core.poFile#week_1|org.eventb.core.poPredicateSet#EVTIDENTcw" org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="r=1" org.eventb.core.source="/press/week_0.bum|org.eventb.core.machineFile#week_0|org.eventb.core.event#4|org.eventb.core.guard#'"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="a=0" org.eventb.core.source="/press/week_0.bum|org.eventb.core.machineFile#week_0|org.eventb.core.event#4|org.eventb.core.guard#("/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/press/week_1.bpo|org.eventb.core.poFile#week_1|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="1"/>
+</org.eventb.core.poFile>

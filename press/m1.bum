@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.machineFile org.eventb.core.comment=" controller/ week relation" org.eventb.core.configuration="org.eventb.core.fwd" version="5">
+<org.eventb.core.refinesMachine name="'" org.eventb.core.target="m0"/>
+<org.eventb.core.seesContext name="(" org.eventb.core.target="c0"/>
+<org.eventb.core.variable name=")" org.eventb.core.identifier="motor_actuator"/>
+<org.eventb.core.variable name="+" org.eventb.core.identifier="motor_sensor"/>
+<org.eventb.core.event name="," org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="INITIALISATION">
+<org.eventb.core.action name="'" org.eventb.core.assignment="start_motor_button ≔ FALSE" org.eventb.core.label="act3"/>
+<org.eventb.core.action name="(" org.eventb.core.assignment="stop_motor_button ≔ FALSE" org.eventb.core.label="act4"/>
+<org.eventb.core.action name=")" org.eventb.core.assignment="start_motor_impulse ≔ FALSE" org.eventb.core.label="act5"/>
+<org.eventb.core.action name="*" org.eventb.core.assignment="stop_motor_impulse ≔ FALSE" org.eventb.core.label="act6"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="-" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="treat_start_motor">
+<org.eventb.core.refinesEvent name="'" org.eventb.core.target="treat_start_motor"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="." org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="treat_stop_motor">
+<org.eventb.core.refinesEvent name="'" org.eventb.core.target="treat_stop_motor"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="/" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="motor_start">
+<org.eventb.core.refinesEvent name="'" org.eventb.core.target="motor_start"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="0" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="motor_stop">
+<org.eventb.core.refinesEvent name="'" org.eventb.core.target="motor_stop"/>
+</org.eventb.core.event>
+<org.eventb.core.variable name="1" org.eventb.core.identifier="start_motor_button"/>
+<org.eventb.core.invariant name="2" org.eventb.core.label="inv1" org.eventb.core.predicate="start_motor_button ∈ BOOL"/>
+<org.eventb.core.variable name="3" org.eventb.core.identifier="stop_motor_button"/>
+<org.eventb.core.invariant name="4" org.eventb.core.label="inv2" org.eventb.core.predicate="stop_motor_button ∈ BOOL"/>
+<org.eventb.core.variable name="5" org.eventb.core.identifier="start_motor_impulse"/>
+<org.eventb.core.invariant name="6" org.eventb.core.label="inv3" org.eventb.core.predicate="start_motor_impulse ∈ BOOL"/>
+<org.eventb.core.variable name="7" org.eventb.core.identifier="stop_motor_impulse"/>
+<org.eventb.core.invariant name="8" org.eventb.core.label="inv4" org.eventb.core.predicate="stop_motor_impulse ∈ BOOL"/>
+<org.eventb.core.event name="9" org.eventb.core.comment=" a_on" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="push_start_motor_button">
+<org.eventb.core.guard name="'" org.eventb.core.label="grd1" org.eventb.core.predicate="start_motor_button = FALSE"/>
+<org.eventb.core.action name="(" org.eventb.core.assignment="start_motor_button ≔ TRUE" org.eventb.core.label="act1"/>
+</org.eventb.core.event>
+<org.eventb.core.event name=":" org.eventb.core.comment=" a_off" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="release_start_motor_button">
+<org.eventb.core.guard name="'" org.eventb.core.label="grd1" org.eventb.core.predicate="start_motor_button = TRUE"/>
+<org.eventb.core.action name="(" org.eventb.core.assignment="start_motor_button ≔ FALSE" org.eventb.core.label="act1"/>
+</org.eventb.core.event>
+<org.eventb.core.event name=";" org.eventb.core.comment=" r_on" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="treat_push_start_motor_button">
+<org.eventb.core.guard name="'" org.eventb.core.label="grd3" org.eventb.core.predicate="start_motor_impulse = FALSE"/>
+<org.eventb.core.guard name="(" org.eventb.core.label="grd4" org.eventb.core.predicate="start_motor_button = TRUE"/>
+<org.eventb.core.action name=")" org.eventb.core.assignment="start_motor_impulse ≔ TRUE" org.eventb.core.label="act2"/>
+<org.eventb.core.refinesEvent name="*" org.eventb.core.target="treat_start_motor"/>
+</org.eventb.core.event>
+</org.eventb.core.machineFile>

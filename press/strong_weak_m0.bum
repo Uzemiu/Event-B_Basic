@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.machineFile org.eventb.core.configuration="org.eventb.core.fwd" version="5">
+<org.eventb.core.variable name="(" org.eventb.core.comment="action" org.eventb.core.identifier="a"/>
+<org.eventb.core.variable name=")" org.eventb.core.comment="rection" org.eventb.core.identifier="r"/>
+<org.eventb.core.event name="/" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="INITIALISATION">
+<org.eventb.core.action name="'" org.eventb.core.assignment="a ≔ 0" org.eventb.core.label="act1"/>
+<org.eventb.core.action name="(" org.eventb.core.assignment="r ≔ 0" org.eventb.core.label="act2"/>
+<org.eventb.core.action name="," org.eventb.core.assignment="s ≔ 0" org.eventb.core.label="act6"/>
+<org.eventb.core.action name="." org.eventb.core.assignment="b ≔ 0" org.eventb.core.label="act8"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="0" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="a_on">
+<org.eventb.core.action name="'" org.eventb.core.assignment="a ≔ 1" org.eventb.core.label="act1"/>
+<org.eventb.core.guard name="(" org.eventb.core.label="grd1" org.eventb.core.predicate="a = 0"/>
+<org.eventb.core.guard name=")" org.eventb.core.label="grd2" org.eventb.core.predicate="r = 0"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="1" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="a_off">
+<org.eventb.core.guard name="'" org.eventb.core.label="grd1" org.eventb.core.predicate="a = 1"/>
+<org.eventb.core.guard name="(" org.eventb.core.label="grd2" org.eventb.core.predicate="r = 1"/>
+<org.eventb.core.guard name=")" org.eventb.core.comment=" !" org.eventb.core.label="grd3" org.eventb.core.predicate="s = 0"/>
+<org.eventb.core.guard name="*" org.eventb.core.comment=" !" org.eventb.core.label="grd4" org.eventb.core.predicate="b = 0"/>
+<org.eventb.core.action name="+" org.eventb.core.assignment="a ≔ 0" org.eventb.core.label="act1"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="2" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="r_on">
+<org.eventb.core.action name="'" org.eventb.core.assignment="r ≔ 1" org.eventb.core.label="act1"/>
+<org.eventb.core.guard name="(" org.eventb.core.label="grd1" org.eventb.core.predicate="r = 0"/>
+<org.eventb.core.guard name=")" org.eventb.core.label="grd2" org.eventb.core.predicate="a = 1"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="3" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="r_off">
+<org.eventb.core.guard name="'" org.eventb.core.label="grd1" org.eventb.core.predicate="r = 1"/>
+<org.eventb.core.guard name="(" org.eventb.core.label="grd2" org.eventb.core.predicate="a = 0"/>
+<org.eventb.core.action name=")" org.eventb.core.assignment="r ≔ 0" org.eventb.core.label="act1"/>
+</org.eventb.core.event>
+<org.eventb.core.invariant name="4" org.eventb.core.label="inv1" org.eventb.core.predicate="a ∈ {0,1}"/>
+<org.eventb.core.invariant name="5" org.eventb.core.label="inv2" org.eventb.core.predicate="r ∈ {0,1}"/>
+<org.eventb.core.variable name=":" org.eventb.core.identifier="b"/>
+<org.eventb.core.invariant name=";" org.eventb.core.label="inv7" org.eventb.core.predicate="b ∈ {0,1}"/>
+<org.eventb.core.variable name="=" org.eventb.core.identifier="s"/>
+<org.eventb.core.invariant name="&gt;" org.eventb.core.label="inv8" org.eventb.core.predicate="s ∈ {0,1}"/>
+<org.eventb.core.event name="E" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="b_on">
+<org.eventb.core.guard name="'" org.eventb.core.label="grd1" org.eventb.core.predicate="b = 0"/>
+<org.eventb.core.guard name="(" org.eventb.core.label="grd2" org.eventb.core.predicate="s = 0"/>
+<org.eventb.core.guard name=")" org.eventb.core.comment=" !" org.eventb.core.label="grd3" org.eventb.core.predicate="r = 1"/>
+<org.eventb.core.guard name="*" org.eventb.core.comment=" !" org.eventb.core.label="grd4" org.eventb.core.predicate="a = 1"/>
+<org.eventb.core.action name="+" org.eventb.core.assignment="b ≔ 1" org.eventb.core.label="act1"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="F" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="b_off">
+<org.eventb.core.guard name="'" org.eventb.core.label="grd1" org.eventb.core.predicate="b = 1"/>
+<org.eventb.core.guard name="(" org.eventb.core.label="grd2" org.eventb.core.predicate="s = 1"/>
+<org.eventb.core.action name=")" org.eventb.core.assignment="b ≔ 0" org.eventb.core.label="act1"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="G" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="s_on">
+<org.eventb.core.guard name="'" org.eventb.core.label="grd1" org.eventb.core.predicate="s = 0"/>
+<org.eventb.core.guard name="(" org.eventb.core.label="grd2" org.eventb.core.predicate="b = 1"/>
+<org.eventb.core.action name=")" org.eventb.core.assignment="s ≔ 1" org.eventb.core.label="act1"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="H" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="s_off">
+<org.eventb.core.guard name="'" org.eventb.core.label="grd1" org.eventb.core.predicate="s = 1"/>
+<org.eventb.core.guard name="(" org.eventb.core.label="grd2" org.eventb.core.predicate="b = 0"/>
+<org.eventb.core.action name=")" org.eventb.core.assignment="s ≔ 0" org.eventb.core.label="act1"/>
+</org.eventb.core.event>
+<org.eventb.core.invariant name="I" org.eventb.core.label="inv13" org.eventb.core.predicate="(b = 1 ∨ s = 1) ⇒ (a = 1 ∧ r = 1)"/>
+<org.eventb.core.invariant name="J" org.eventb.core.label="inv14" org.eventb.core.predicate="(a = 0 ∨ r = 0) ⇒ (b = 0 ∧ s = 0)"/>
+</org.eventb.core.machineFile>

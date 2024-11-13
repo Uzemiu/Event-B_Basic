@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.machineFile org.eventb.core.comment="remove cr/ca 证明结论成立了就可以删了" org.eventb.core.configuration="org.eventb.core.fwd" version="5">
+<org.eventb.core.refinesMachine name="'" org.eventb.core.target="week_0"/>
+<org.eventb.core.variable name="(" org.eventb.core.comment="action" org.eventb.core.identifier="a"/>
+<org.eventb.core.variable name=")" org.eventb.core.comment="rection" org.eventb.core.identifier="r"/>
+<org.eventb.core.event name="/" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="INITIALISATION">
+<org.eventb.core.action name="'" org.eventb.core.assignment="a ≔ 0" org.eventb.core.label="act1"/>
+<org.eventb.core.action name="(" org.eventb.core.assignment="r ≔ 0" org.eventb.core.label="act2"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="0" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="a_on">
+<org.eventb.core.refinesEvent name="'" org.eventb.core.target="a_on"/>
+<org.eventb.core.guard name="'" org.eventb.core.label="grd1" org.eventb.core.predicate="a = 0"/>
+<org.eventb.core.action name="(" org.eventb.core.assignment="a ≔ 1" org.eventb.core.label="act1"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="1" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="a_off">
+<org.eventb.core.refinesEvent name="'" org.eventb.core.target="a_off"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="2" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="r_on">
+<org.eventb.core.refinesEvent name="'" org.eventb.core.target="r_on"/>
+<org.eventb.core.guard name="'" org.eventb.core.label="grd1" org.eventb.core.predicate="r = 0"/>
+<org.eventb.core.guard name="(" org.eventb.core.label="grd2" org.eventb.core.predicate="a = 1"/>
+<org.eventb.core.action name=")" org.eventb.core.assignment="r ≔ 1" org.eventb.core.label="act1"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="3" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="r_off">
+<org.eventb.core.refinesEvent name="'" org.eventb.core.target="r_off"/>
+</org.eventb.core.event>
+</org.eventb.core.machineFile>

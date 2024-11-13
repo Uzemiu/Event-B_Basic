@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.machineFile org.eventb.core.configuration="org.eventb.core.fwd" version="5">
+<org.eventb.core.variable name="(" org.eventb.core.comment="action" org.eventb.core.identifier="a"/>
+<org.eventb.core.variable name=")" org.eventb.core.comment="rection" org.eventb.core.identifier="r"/>
+<org.eventb.core.variable name="," org.eventb.core.comment="count action" org.eventb.core.identifier="ca"/>
+<org.eventb.core.variable name="." org.eventb.core.comment="count reaction" org.eventb.core.identifier="cr"/>
+<org.eventb.core.event name="/" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="INITIALISATION"/>
+<org.eventb.core.event name="0" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="a_on">
+<org.eventb.core.guard name="*" org.eventb.core.label="grd2" org.eventb.core.predicate="r = 0"/>
+<org.eventb.core.refinesEvent name="+" org.eventb.core.target="a_on"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="1" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="a_off">
+<org.eventb.core.guard name=")" org.eventb.core.label="grd2" org.eventb.core.predicate="r = 1"/>
+<org.eventb.core.refinesEvent name="*" org.eventb.core.target="a_off"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="2" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="r_on">
+<org.eventb.core.refinesEvent name="*" org.eventb.core.target="r_on"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="3" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="r_off">
+<org.eventb.core.refinesEvent name="*" org.eventb.core.target="r_off"/>
+</org.eventb.core.event>
+<org.eventb.core.invariant name="4" org.eventb.core.label="inv1" org.eventb.core.predicate="ca ≤ cr + 1"/>
+<org.eventb.core.invariant name="5" org.eventb.core.label="inv2" org.eventb.core.predicate="a = 0 ⇒ ca = cr"/>
+<org.eventb.core.invariant name="6" org.eventb.core.label="inv3" org.eventb.core.predicate="a = 1 ∧ r = 0 ⇒ ca = cr + 1"/>
+<org.eventb.core.invariant name="7" org.eventb.core.label="inv4" org.eventb.core.predicate="a = 0 ∨ r = 1 ⇒ ca = cr"/>
+<org.eventb.core.refinesMachine name="=" org.eventb.core.target="week_0"/>
+</org.eventb.core.machineFile>
