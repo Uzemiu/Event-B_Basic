@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.machineFile org.eventb.core.configuration="org.eventb.core.fwd" version="5">
+<org.eventb.core.refinesMachine name="'" org.eventb.core.target="m2"/>
+<org.eventb.core.seesContext name="(" org.eventb.core.target="c3"/>
+<org.eventb.core.variable name="+" org.eventb.core.identifier="b"/>
+<org.eventb.core.variable name="." org.eventb.core.comment=" new name for recevier" org.eventb.core.identifier="h"/>
+<org.eventb.core.variable name="0" org.eventb.core.comment=" receive pointer(next part to be received)" org.eventb.core.identifier="r"/>
+<org.eventb.core.variable name="4" org.eventb.core.comment=" sender pointer(next part to be sent)" org.eventb.core.identifier="s"/>
+<org.eventb.core.variable name="8" org.eventb.core.comment=" intermediate part" org.eventb.core.identifier="d"/>
+<org.eventb.core.event name="9" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="INITIALISATION"/>
+<org.eventb.core.event name=":" org.eventb.core.comment=" 去掉了g，因为这个执行完h=g" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="final">
+<org.eventb.core.refinesEvent name="'" org.eventb.core.target="final"/>
+</org.eventb.core.event>
+<org.eventb.core.event name=";" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="receive">
+<org.eventb.core.refinesEvent name="'" org.eventb.core.target="receive"/>
+<org.eventb.core.guard name="'" org.eventb.core.label="grd1" org.eventb.core.predicate="parity(s) ≠ parity(r)"/>
+<org.eventb.core.action name="(" org.eventb.core.assignment="h(r) ≔ d" org.eventb.core.comment=" " org.eventb.core.label="act1"/>
+<org.eventb.core.action name=")" org.eventb.core.assignment="r ≔ r + 1" org.eventb.core.label="act2"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="=" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="send">
+<org.eventb.core.refinesEvent name="'" org.eventb.core.target="send"/>
+<org.eventb.core.guard name="'" org.eventb.core.label="grd1" org.eventb.core.predicate="parity(s) = parity(r)"/>
+<org.eventb.core.guard name="(" org.eventb.core.label="grd2" org.eventb.core.predicate="s ≠ n + 1"/>
+<org.eventb.core.action name=")" org.eventb.core.assignment="d ≔ f(s)" org.eventb.core.label="act1"/>
+<org.eventb.core.action name="*" org.eventb.core.assignment="s ≔ s + 1" org.eventb.core.label="act2"/>
+</org.eventb.core.event>
+<org.eventb.core.invariant name="?" org.eventb.core.comment=" WD" org.eventb.core.label="inv1" org.eventb.core.predicate="s &gt; 0"/>
+<org.eventb.core.invariant name="A" org.eventb.core.comment=" WD" org.eventb.core.label="inv2" org.eventb.core.predicate="r &gt; 0"/>
+</org.eventb.core.machineFile>
