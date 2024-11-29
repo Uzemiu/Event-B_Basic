@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="4">
+<org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.poStamp="1">
+<org.eventb.core.poIdentifier name="S" org.eventb.core.type="ℙ(S)"/>
+<org.eventb.core.poIdentifier name="X" org.eventb.core.type="ℙ(S)"/>
+<org.eventb.core.poIdentifier name="Y" org.eventb.core.type="ℙ(S)"/>
+<org.eventb.core.poIdentifier name="Z" org.eventb.core.type="ℙ(S)"/>
+<org.eventb.core.poIdentifier name="x" org.eventb.core.type="S"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="thm/THM" org.eventb.core.accurate="true" org.eventb.core.poDesc="Theorem" org.eventb.core.poStamp="4">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/03_prop1/prop4_2.bpo|org.eventb.core.poFile#prop4_2|org.eventb.core.poPredicateSet#HYP'"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="((x∈Y∨x∈Z⇒x∈X∨x∈Z)⇒(x∈X⇒x∈Y))⇒(x∈X⇒x∈Y)" org.eventb.core.source="/03_prop1/prop4_2.buc|org.eventb.core.contextFile#prop4_2|org.eventb.core.axiom#-"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/03_prop1/prop4_2.buc|org.eventb.core.contextFile#prop4_2|org.eventb.core.axiom#-"/>
+<org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/03_prop1/prop4_2.bpo|org.eventb.core.poFile#prop4_2|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poSelHintSnd="/03_prop1/prop4_2.bpo|org.eventb.core.poFile#prop4_2|org.eventb.core.poPredicateSet#HYP'"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="HYP'" org.eventb.core.parentSet="/03_prop1/prop4_2.bpo|org.eventb.core.poFile#prop4_2|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="4">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="x∈S" org.eventb.core.source="/03_prop1/prop4_2.buc|org.eventb.core.contextFile#prop4_2|org.eventb.core.axiom#,"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/03_prop1/prop4_2.bpo|org.eventb.core.poFile#prop4_2|org.eventb.core.poPredicateSet#HYP'" org.eventb.core.poStamp="4">
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="((x∈Y∨x∈Z⇒x∈X∨x∈Z)⇒(x∈X⇒x∈Y))⇒(x∈X⇒x∈Y)" org.eventb.core.source="/03_prop1/prop4_2.buc|org.eventb.core.contextFile#prop4_2|org.eventb.core.axiom#-"/>
+</org.eventb.core.poPredicateSet>
+</org.eventb.core.poFile>

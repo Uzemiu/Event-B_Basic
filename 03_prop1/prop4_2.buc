@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.contextFile org.eventb.core.configuration="org.eventb.core.fwd;org.animb.valuation.valBase" version="3">
+<org.eventb.core.carrierSet name="'" org.eventb.core.identifier="S"/>
+<org.eventb.core.constant name="(" org.eventb.core.identifier="X"/>
+<org.eventb.core.constant name=")" org.eventb.core.identifier="Y"/>
+<org.eventb.core.constant name="*" org.eventb.core.identifier="Z"/>
+<org.eventb.core.constant name="+" org.eventb.core.identifier="x"/>
+<org.eventb.core.axiom name="," org.eventb.core.label="axm1" org.eventb.core.predicate="x∈S"/>
+<org.eventb.core.axiom name="-" org.eventb.core.label="thm" org.eventb.core.predicate="((x∈Y ∨ x∈Z ⇒ x∈X ∨ x∈Z) ⇒ (x∈X ⇒x∈Y)) ⇒ (x∈X ⇒ x∈Y)" org.eventb.core.theorem="true"/>
+</org.eventb.core.contextFile>

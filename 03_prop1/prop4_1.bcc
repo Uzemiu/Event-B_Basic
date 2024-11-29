@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.scContextFile org.eventb.core.accurate="true" org.eventb.core.configuration="org.eventb.core.fwd;org.animb.valuation.valBase">
+<org.eventb.core.scAxiom name="'" org.eventb.core.label="axm1" org.eventb.core.predicate="x∈S" org.eventb.core.source="/03_prop1/prop4_1.buc|org.eventb.core.contextFile#prop4_1|org.eventb.core.axiom#cst4" org.eventb.core.theorem="false"/>
+<org.eventb.core.scAxiom name="(" org.eventb.core.label="thm" org.eventb.core.predicate="(x∈X⇒x∈Y)⇒((x∈Y∨x∈Z⇒x∈X∨x∈Z)⇒(x∈X⇒x∈Y))" org.eventb.core.source="/03_prop1/prop4_1.buc|org.eventb.core.contextFile#prop4_1|org.eventb.core.axiom#cst6" org.eventb.core.theorem="true"/>
+<org.eventb.core.scCarrierSet name="S" org.eventb.core.source="/03_prop1/prop4_1.buc|org.eventb.core.contextFile#prop4_1|org.eventb.core.carrierSet#'" org.eventb.core.type="ℙ(S)"/>
+<org.eventb.core.scConstant name="X" org.eventb.core.source="/03_prop1/prop4_1.buc|org.eventb.core.contextFile#prop4_1|org.eventb.core.constant#(" org.eventb.core.type="ℙ(S)"/>
+<org.eventb.core.scConstant name="Y" org.eventb.core.source="/03_prop1/prop4_1.buc|org.eventb.core.contextFile#prop4_1|org.eventb.core.constant#cst1" org.eventb.core.type="ℙ(S)"/>
+<org.eventb.core.scConstant name="Z" org.eventb.core.source="/03_prop1/prop4_1.buc|org.eventb.core.contextFile#prop4_1|org.eventb.core.constant#cst2" org.eventb.core.type="ℙ(S)"/>
+<org.eventb.core.scConstant name="x" org.eventb.core.source="/03_prop1/prop4_1.buc|org.eventb.core.contextFile#prop4_1|org.eventb.core.constant#cst3" org.eventb.core.type="S"/>
+</org.eventb.core.scContextFile>

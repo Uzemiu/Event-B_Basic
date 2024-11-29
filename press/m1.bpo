@@ -1,84 +1,84 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<org.eventb.core.poFile org.eventb.core.poStamp="9">
-<org.eventb.core.poPredicateSet name="CTXHYP" org.eventb.core.poStamp="0">
-<org.eventb.core.poIdentifier name="STATUS" org.eventb.core.type="ℙ(STATUS)"/>
-<org.eventb.core.poIdentifier name="stopped" org.eventb.core.type="STATUS"/>
-<org.eventb.core.poIdentifier name="working" org.eventb.core.type="STATUS"/>
-<org.eventb.core.poPredicate name="workinh" org.eventb.core.predicate="partition(STATUS,{stopped},{working})" org.eventb.core.source="/press/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#*"/>
-</org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.parentSet="/press/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="4">
-<org.eventb.core.poIdentifier name="motor_actuator" org.eventb.core.type="STATUS"/>
-<org.eventb.core.poIdentifier name="motor_sensor" org.eventb.core.type="STATUS"/>
-<org.eventb.core.poIdentifier name="start_motor_button" org.eventb.core.type="BOOL"/>
-<org.eventb.core.poIdentifier name="start_motor_impulse" org.eventb.core.type="BOOL"/>
-<org.eventb.core.poIdentifier name="stop_motor_button" org.eventb.core.type="BOOL"/>
-<org.eventb.core.poIdentifier name="stop_motor_impulse" org.eventb.core.type="BOOL"/>
-<org.eventb.core.poPredicate name="start_motor_impulsf" org.eventb.core.predicate="motor_actuator∈STATUS" org.eventb.core.source="/press/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#*"/>
-<org.eventb.core.poPredicate name="start_motor_impulsg" org.eventb.core.predicate="motor_sensor∈STATUS" org.eventb.core.source="/press/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#,"/>
-</org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="EVTIDENTstart_motor_impulsf" org.eventb.core.parentSet="/press/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="0">
-<org.eventb.core.poIdentifier name="motor_actuator'" org.eventb.core.type="STATUS"/>
-<org.eventb.core.poIdentifier name="start_motor_button'" org.eventb.core.type="BOOL"/>
-<org.eventb.core.poIdentifier name="stop_motor_impulse'" org.eventb.core.type="BOOL"/>
-<org.eventb.core.poIdentifier name="stop_motor_button'" org.eventb.core.type="BOOL"/>
-<org.eventb.core.poIdentifier name="start_motor_impulse'" org.eventb.core.type="BOOL"/>
-<org.eventb.core.poIdentifier name="motor_sensor'" org.eventb.core.type="STATUS"/>
-</org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="EVTALLHYPstart_motor_impulsf" org.eventb.core.parentSet="/press/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTIDENTstart_motor_impulsf" org.eventb.core.poStamp="0"/>
-<org.eventb.core.poPredicateSet name="EVTIDENTstart_motor_impulsg" org.eventb.core.parentSet="/press/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
-<org.eventb.core.poIdentifier name="motor_actuator'" org.eventb.core.type="STATUS"/>
-</org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="EVTALLHYPstart_motor_impulsg" org.eventb.core.parentSet="/press/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTIDENTstart_motor_impulsg" org.eventb.core.poStamp="0">
-<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="motor_actuator=stopped" org.eventb.core.source="/press/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#-|org.eventb.core.guard#'"/>
-<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="motor_sensor=stopped" org.eventb.core.source="/press/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#-|org.eventb.core.guard#("/>
-</org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="EVTIDENTstart_motor_impulsh" org.eventb.core.parentSet="/press/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
-<org.eventb.core.poIdentifier name="motor_actuator'" org.eventb.core.type="STATUS"/>
-</org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="EVTALLHYPstart_motor_impulsh" org.eventb.core.parentSet="/press/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTIDENTstart_motor_impulsh" org.eventb.core.poStamp="0">
-<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="motor_actuator=working" org.eventb.core.source="/press/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#.|org.eventb.core.guard#'"/>
-<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="motor_sensor=working" org.eventb.core.source="/press/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#.|org.eventb.core.guard#("/>
-</org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="EVTIDENTstart_motor_impulsi" org.eventb.core.parentSet="/press/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
-<org.eventb.core.poIdentifier name="motor_sensor'" org.eventb.core.type="STATUS"/>
-</org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="EVTALLHYPstart_motor_impulsi" org.eventb.core.parentSet="/press/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTIDENTstart_motor_impulsi" org.eventb.core.poStamp="0">
-<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="motor_sensor=stopped" org.eventb.core.source="/press/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#\/|org.eventb.core.guard#'"/>
-<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="motor_actuator=working" org.eventb.core.source="/press/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#\/|org.eventb.core.guard#("/>
-</org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="EVTIDENTstart_motor_impulsj" org.eventb.core.parentSet="/press/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
-<org.eventb.core.poIdentifier name="motor_sensor'" org.eventb.core.type="STATUS"/>
-</org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="EVTALLHYPstart_motor_impulsj" org.eventb.core.parentSet="/press/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTIDENTstart_motor_impulsj" org.eventb.core.poStamp="0">
-<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="motor_sensor=working" org.eventb.core.source="/press/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#0|org.eventb.core.guard#'"/>
-<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="motor_actuator=stopped" org.eventb.core.source="/press/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#0|org.eventb.core.guard#("/>
-</org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="EVTIDENTstart_motor_impulsk" org.eventb.core.parentSet="/press/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
-<org.eventb.core.poIdentifier name="start_motor_button'" org.eventb.core.type="BOOL"/>
-</org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="EVTALLHYPstart_motor_impulsk" org.eventb.core.parentSet="/press/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTIDENTstart_motor_impulsk" org.eventb.core.poStamp="0">
-<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="start_motor_button=FALSE" org.eventb.core.source="/press/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#9|org.eventb.core.guard#'"/>
-</org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="EVTIDENTstart_motor_impulsl" org.eventb.core.parentSet="/press/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
-<org.eventb.core.poIdentifier name="start_motor_button'" org.eventb.core.type="BOOL"/>
-</org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="EVTALLHYPstart_motor_impulsl" org.eventb.core.parentSet="/press/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTIDENTstart_motor_impulsl" org.eventb.core.poStamp="0">
-<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="start_motor_button=TRUE" org.eventb.core.source="/press/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#:|org.eventb.core.guard#'"/>
-</org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="EVTIDENTstart_motor_impulsm" org.eventb.core.parentSet="/press/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="9">
-<org.eventb.core.poIdentifier name="motor_actuator'" org.eventb.core.type="STATUS"/>
-<org.eventb.core.poIdentifier name="start_motor_impulse'" org.eventb.core.type="BOOL"/>
-</org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="EVTALLHYPstart_motor_impulsm" org.eventb.core.parentSet="/press/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTIDENTstart_motor_impulsm" org.eventb.core.poStamp="9">
-<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="motor_actuator=stopped" org.eventb.core.source="/press/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#-|org.eventb.core.guard#'"/>
-<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="motor_sensor=stopped" org.eventb.core.source="/press/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#-|org.eventb.core.guard#("/>
-<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="start_motor_impulse=FALSE" org.eventb.core.source="/press/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#;|org.eventb.core.guard#'"/>
-<org.eventb.core.poPredicate name="PRD3" org.eventb.core.predicate="start_motor_button=TRUE" org.eventb.core.source="/press/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#;|org.eventb.core.guard#("/>
-</org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/press/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="4">
-<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="start_motor_button∈BOOL" org.eventb.core.source="/press/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#2"/>
-<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="stop_motor_button∈BOOL" org.eventb.core.source="/press/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#4"/>
-<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="start_motor_impulse∈BOOL" org.eventb.core.source="/press/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#6"/>
-<org.eventb.core.poPredicate name="PRD3" org.eventb.core.predicate="stop_motor_impulse∈BOOL" org.eventb.core.source="/press/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#8"/>
-</org.eventb.core.poPredicateSet>
+<org.eventb.core.poFile org.eventb.core.poStamp="10">
+    <org.eventb.core.poPredicateSet name="CTXHYP" org.eventb.core.poStamp="10">
+        <org.eventb.core.poIdentifier name="STATUS" org.eventb.core.type="ℙ(STATUS)"/>
+        <org.eventb.core.poIdentifier name="working" org.eventb.core.type="STATUS"/>
+        <org.eventb.core.poIdentifier name="stopped" org.eventb.core.type="STATUS"/>
+        <org.eventb.core.poPredicate name="workinh" org.eventb.core.predicate="partition(STATUS,{stopped},{working})" org.eventb.core.source="/press/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#*"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.parentSet="/press/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="10">
+        <org.eventb.core.poIdentifier name="start_motor_button" org.eventb.core.type="BOOL"/>
+        <org.eventb.core.poIdentifier name="stop_motor_impulse" org.eventb.core.type="BOOL"/>
+        <org.eventb.core.poIdentifier name="motor_actuator" org.eventb.core.type="STATUS"/>
+        <org.eventb.core.poIdentifier name="motor_sensor" org.eventb.core.type="STATUS"/>
+        <org.eventb.core.poIdentifier name="start_motor_impulse" org.eventb.core.type="BOOL"/>
+        <org.eventb.core.poIdentifier name="stop_motor_button" org.eventb.core.type="BOOL"/>
+        <org.eventb.core.poPredicate name="start_motor_impulsf" org.eventb.core.predicate="motor_actuator∈STATUS" org.eventb.core.source="/press/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#*"/>
+        <org.eventb.core.poPredicate name="start_motor_impulsg" org.eventb.core.predicate="motor_sensor∈STATUS" org.eventb.core.source="/press/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#,"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="EVTIDENTstart_motor_impulsf" org.eventb.core.parentSet="/press/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="10">
+        <org.eventb.core.poIdentifier name="motor_actuator'" org.eventb.core.type="STATUS"/>
+        <org.eventb.core.poIdentifier name="start_motor_button'" org.eventb.core.type="BOOL"/>
+        <org.eventb.core.poIdentifier name="stop_motor_impulse'" org.eventb.core.type="BOOL"/>
+        <org.eventb.core.poIdentifier name="stop_motor_button'" org.eventb.core.type="BOOL"/>
+        <org.eventb.core.poIdentifier name="start_motor_impulse'" org.eventb.core.type="BOOL"/>
+        <org.eventb.core.poIdentifier name="motor_sensor'" org.eventb.core.type="STATUS"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="EVTALLHYPstart_motor_impulsf" org.eventb.core.parentSet="/press/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTIDENTstart_motor_impulsf" org.eventb.core.poStamp="10"/>
+    <org.eventb.core.poPredicateSet name="EVTIDENTstart_motor_impulsg" org.eventb.core.parentSet="/press/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="10">
+        <org.eventb.core.poIdentifier name="motor_actuator'" org.eventb.core.type="STATUS"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="EVTALLHYPstart_motor_impulsg" org.eventb.core.parentSet="/press/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTIDENTstart_motor_impulsg" org.eventb.core.poStamp="10">
+        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="motor_actuator=stopped" org.eventb.core.source="/press/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#-|org.eventb.core.guard#'"/>
+        <org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="motor_sensor=stopped" org.eventb.core.source="/press/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#-|org.eventb.core.guard#("/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="EVTIDENTstart_motor_impulsh" org.eventb.core.parentSet="/press/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="10">
+        <org.eventb.core.poIdentifier name="motor_actuator'" org.eventb.core.type="STATUS"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="EVTALLHYPstart_motor_impulsh" org.eventb.core.parentSet="/press/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTIDENTstart_motor_impulsh" org.eventb.core.poStamp="10">
+        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="motor_actuator=working" org.eventb.core.source="/press/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#.|org.eventb.core.guard#'"/>
+        <org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="motor_sensor=working" org.eventb.core.source="/press/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#.|org.eventb.core.guard#("/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="EVTIDENTstart_motor_impulsi" org.eventb.core.parentSet="/press/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="10">
+        <org.eventb.core.poIdentifier name="motor_sensor'" org.eventb.core.type="STATUS"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="EVTALLHYPstart_motor_impulsi" org.eventb.core.parentSet="/press/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTIDENTstart_motor_impulsi" org.eventb.core.poStamp="10">
+        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="motor_sensor=stopped" org.eventb.core.source="/press/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#\/|org.eventb.core.guard#'"/>
+        <org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="motor_actuator=working" org.eventb.core.source="/press/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#\/|org.eventb.core.guard#("/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="EVTIDENTstart_motor_impulsj" org.eventb.core.parentSet="/press/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="10">
+        <org.eventb.core.poIdentifier name="motor_sensor'" org.eventb.core.type="STATUS"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="EVTALLHYPstart_motor_impulsj" org.eventb.core.parentSet="/press/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTIDENTstart_motor_impulsj" org.eventb.core.poStamp="10">
+        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="motor_sensor=working" org.eventb.core.source="/press/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#0|org.eventb.core.guard#'"/>
+        <org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="motor_actuator=stopped" org.eventb.core.source="/press/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#0|org.eventb.core.guard#("/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="EVTIDENTstart_motor_impulsk" org.eventb.core.parentSet="/press/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="10">
+        <org.eventb.core.poIdentifier name="start_motor_button'" org.eventb.core.type="BOOL"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="EVTALLHYPstart_motor_impulsk" org.eventb.core.parentSet="/press/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTIDENTstart_motor_impulsk" org.eventb.core.poStamp="10">
+        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="start_motor_button=FALSE" org.eventb.core.source="/press/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#9|org.eventb.core.guard#'"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="EVTIDENTstart_motor_impulsl" org.eventb.core.parentSet="/press/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="10">
+        <org.eventb.core.poIdentifier name="start_motor_button'" org.eventb.core.type="BOOL"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="EVTALLHYPstart_motor_impulsl" org.eventb.core.parentSet="/press/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTIDENTstart_motor_impulsl" org.eventb.core.poStamp="10">
+        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="start_motor_button=TRUE" org.eventb.core.source="/press/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#:|org.eventb.core.guard#'"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="EVTIDENTstart_motor_impulsm" org.eventb.core.parentSet="/press/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="10">
+        <org.eventb.core.poIdentifier name="motor_actuator'" org.eventb.core.type="STATUS"/>
+        <org.eventb.core.poIdentifier name="start_motor_impulse'" org.eventb.core.type="BOOL"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="EVTALLHYPstart_motor_impulsm" org.eventb.core.parentSet="/press/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTIDENTstart_motor_impulsm" org.eventb.core.poStamp="10">
+        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="motor_actuator=stopped" org.eventb.core.source="/press/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#-|org.eventb.core.guard#'"/>
+        <org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="motor_sensor=stopped" org.eventb.core.source="/press/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#-|org.eventb.core.guard#("/>
+        <org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="start_motor_impulse=FALSE" org.eventb.core.source="/press/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#;|org.eventb.core.guard#'"/>
+        <org.eventb.core.poPredicate name="PRD3" org.eventb.core.predicate="start_motor_button=TRUE" org.eventb.core.source="/press/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#;|org.eventb.core.guard#("/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/press/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="10">
+        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="start_motor_button∈BOOL" org.eventb.core.source="/press/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#2"/>
+        <org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="stop_motor_button∈BOOL" org.eventb.core.source="/press/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#4"/>
+        <org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="start_motor_impulse∈BOOL" org.eventb.core.source="/press/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#6"/>
+        <org.eventb.core.poPredicate name="PRD3" org.eventb.core.predicate="stop_motor_impulse∈BOOL" org.eventb.core.source="/press/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#8"/>
+    </org.eventb.core.poPredicateSet>
 </org.eventb.core.poFile>

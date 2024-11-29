@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.contextFile org.eventb.core.configuration="org.eventb.core.fwd;org.animb.valuation.valBase" version="3">
+<org.eventb.core.carrierSet name="'" org.eventb.core.identifier="U"/>
+<org.eventb.core.constant name="(" org.eventb.core.identifier="P"/>
+<org.eventb.core.constant name="cst1" org.eventb.core.identifier="Q"/>
+<org.eventb.core.constant name="cst2" org.eventb.core.identifier="R"/>
+<org.eventb.core.constant name="cst3" org.eventb.core.identifier="S1"/>
+<org.eventb.core.constant name="cst4" org.eventb.core.identifier="S2"/>
+<org.eventb.core.constant name="cst5" org.eventb.core.identifier="S3"/>
+<org.eventb.core.constant name="cst6" org.eventb.core.identifier="a"/>
+<org.eventb.core.axiom name="cst7" org.eventb.core.label="axm1" org.eventb.core.predicate="P ⊆ U"/>
+<org.eventb.core.axiom name="axm1" org.eventb.core.label="axm2" org.eventb.core.predicate="Q ⊆ U"/>
+<org.eventb.core.axiom name="axm2" org.eventb.core.label="axm3" org.eventb.core.predicate="R ⊆ U"/>
+<org.eventb.core.axiom name="axm3" org.eventb.core.label="axm4" org.eventb.core.predicate="S1 ⊆ U"/>
+<org.eventb.core.axiom name="axm4" org.eventb.core.label="axm5" org.eventb.core.predicate="S2 ⊆ U"/>
+<org.eventb.core.axiom name="axm5" org.eventb.core.label="axm6" org.eventb.core.predicate="S3 ⊆ U"/>
+<org.eventb.core.axiom name="axm6" org.eventb.core.label="axm7" org.eventb.core.predicate="a∈U"/>
+<org.eventb.core.axiom name="axm7" org.eventb.core.label="thm" org.eventb.core.predicate="  (∀x,y· x∈P ∧ y∈Q ⇒ (∃z·z∈R ∧ x∈S1 ∧ y∈S2 ∧ z∈S3)) ∧&#10;  (∀x·x∈Q ∨ x∈R) ∧&#10;  (a∈P) ∧&#10;  (∀y·y∈R ⇒ (∃z·z∈Q ∧ a∈S1 ∧ y∈S2 ∧ z∈S3))&#10;⇒&#10;  (∃x·∀y·∃z·x∈S1 ∧ y∈S2 ∧ z∈S3)" org.eventb.core.theorem="true"/>
+</org.eventb.core.contextFile>

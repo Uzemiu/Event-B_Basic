@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="3">
+    <org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.poStamp="1">
+        <org.eventb.core.poIdentifier name="S" org.eventb.core.type="ℙ(S)"/>
+        <org.eventb.core.poIdentifier name="A" org.eventb.core.type="ℙ(S)"/>
+        <org.eventb.core.poIdentifier name="B" org.eventb.core.type="ℙ(S)"/>
+        <org.eventb.core.poIdentifier name="y" org.eventb.core.type="S"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poSequent name="thm/THM" org.eventb.core.accurate="true" org.eventb.core.poDesc="Theorem" org.eventb.core.poStamp="3">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/04_pred1/pred0.bpo|org.eventb.core.poFile#pred0|org.eventb.core.poPredicateSet#HYP("/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="((∃x⦂S·x∈A)⇒y∈B)⇔(∀x⦂S·x∈A⇒y∈B)" org.eventb.core.source="/04_pred1/pred0.buc|org.eventb.core.contextFile#pred0|org.eventb.core.axiom#axm2"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/04_pred1/pred0.buc|org.eventb.core.contextFile#pred0|org.eventb.core.axiom#axm2"/>
+        <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/04_pred1/pred0.bpo|org.eventb.core.poFile#pred0|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poSelHintSnd="/04_pred1/pred0.bpo|org.eventb.core.poFile#pred0|org.eventb.core.poPredicateSet#HYP("/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poPredicateSet name="HYP(" org.eventb.core.parentSet="/04_pred1/pred0.bpo|org.eventb.core.poFile#pred0|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="0">
+        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="y∈S" org.eventb.core.source="/04_pred1/pred0.buc|org.eventb.core.contextFile#pred0|org.eventb.core.axiom#+"/>
+        <org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="A⊆S" org.eventb.core.source="/04_pred1/pred0.buc|org.eventb.core.contextFile#pred0|org.eventb.core.axiom#axm1"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/04_pred1/pred0.bpo|org.eventb.core.poFile#pred0|org.eventb.core.poPredicateSet#HYP(" org.eventb.core.poStamp="3">
+        <org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="((∃x⦂S·x∈A)⇒y∈B)⇔(∀x⦂S·x∈A⇒y∈B)" org.eventb.core.source="/04_pred1/pred0.buc|org.eventb.core.contextFile#pred0|org.eventb.core.axiom#axm2"/>
+    </org.eventb.core.poPredicateSet>
+</org.eventb.core.poFile>

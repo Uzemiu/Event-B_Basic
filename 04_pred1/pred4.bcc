@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.scContextFile org.eventb.core.accurate="true" org.eventb.core.configuration="org.eventb.core.fwd;org.animb.valuation.valBase">
+    <org.eventb.core.scAxiom name="'" org.eventb.core.label="axm1" org.eventb.core.predicate="P⊆X" org.eventb.core.source="/04_pred1/pred4.buc|org.eventb.core.contextFile#pred4|org.eventb.core.axiom#cst5" org.eventb.core.theorem="false"/>
+    <org.eventb.core.scAxiom name="(" org.eventb.core.label="axm2" org.eventb.core.predicate="Q⊆X" org.eventb.core.source="/04_pred1/pred4.buc|org.eventb.core.contextFile#pred4|org.eventb.core.axiom#axm1" org.eventb.core.theorem="false"/>
+    <org.eventb.core.scAxiom name=")" org.eventb.core.label="axm3" org.eventb.core.predicate="R⊆X × X" org.eventb.core.source="/04_pred1/pred4.buc|org.eventb.core.contextFile#pred4|org.eventb.core.axiom#axm2" org.eventb.core.theorem="false"/>
+    <org.eventb.core.scAxiom name="*" org.eventb.core.label="axm4" org.eventb.core.predicate="S⊆X" org.eventb.core.source="/04_pred1/pred4.buc|org.eventb.core.contextFile#pred4|org.eventb.core.axiom#axm3" org.eventb.core.theorem="false"/>
+    <org.eventb.core.scAxiom name="+" org.eventb.core.label="axm5" org.eventb.core.predicate="T⊆X × X" org.eventb.core.source="/04_pred1/pred4.buc|org.eventb.core.contextFile#pred4|org.eventb.core.axiom#axm4" org.eventb.core.theorem="false"/>
+    <org.eventb.core.scAxiom name="," org.eventb.core.label="thm" org.eventb.core.predicate="(∀x⦂X·x∈P∧(∃y⦂X·y∈Q∧x ↦ y∈R)⇒(∃z⦂X·z∈S∧x ↦ z∈T))∧(∀x⦂X,y⦂X·x∈P⇒x ↦ y∈R)∧(∃x⦂X·x∈P)∧(∀x⦂X,y⦂X·y∈S⇒¬x ↦ y∈T)⇒(∃x⦂X·∀y⦂X·y∈Q⇒¬x ↦ y∈R)" org.eventb.core.source="/04_pred1/pred4.buc|org.eventb.core.contextFile#pred4|org.eventb.core.axiom#axm5" org.eventb.core.theorem="true"/>
+    <org.eventb.core.scConstant name="P" org.eventb.core.source="/04_pred1/pred4.buc|org.eventb.core.contextFile#pred4|org.eventb.core.constant#(" org.eventb.core.type="ℙ(X)"/>
+    <org.eventb.core.scConstant name="Q" org.eventb.core.source="/04_pred1/pred4.buc|org.eventb.core.contextFile#pred4|org.eventb.core.constant#cst1" org.eventb.core.type="ℙ(X)"/>
+    <org.eventb.core.scConstant name="R" org.eventb.core.source="/04_pred1/pred4.buc|org.eventb.core.contextFile#pred4|org.eventb.core.constant#cst2" org.eventb.core.type="ℙ(X×X)"/>
+    <org.eventb.core.scConstant name="S" org.eventb.core.source="/04_pred1/pred4.buc|org.eventb.core.contextFile#pred4|org.eventb.core.constant#cst3" org.eventb.core.type="ℙ(X)"/>
+    <org.eventb.core.scConstant name="T" org.eventb.core.source="/04_pred1/pred4.buc|org.eventb.core.contextFile#pred4|org.eventb.core.constant#cst4" org.eventb.core.type="ℙ(X×X)"/>
+    <org.eventb.core.scCarrierSet name="X" org.eventb.core.source="/04_pred1/pred4.buc|org.eventb.core.contextFile#pred4|org.eventb.core.carrierSet#'" org.eventb.core.type="ℙ(X)"/>
+</org.eventb.core.scContextFile>

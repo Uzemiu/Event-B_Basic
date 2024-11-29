@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.scContextFile org.eventb.core.accurate="true" org.eventb.core.configuration="org.eventb.core.fwd;org.animb.valuation.valBase">
+    <org.eventb.core.scAxiom name="'" org.eventb.core.label="axm1" org.eventb.core.predicate="P⊆U" org.eventb.core.source="/04_pred1/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.axiom#cst7" org.eventb.core.theorem="false"/>
+    <org.eventb.core.scAxiom name="(" org.eventb.core.label="axm2" org.eventb.core.predicate="Q⊆U" org.eventb.core.source="/04_pred1/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.axiom#axm1" org.eventb.core.theorem="false"/>
+    <org.eventb.core.scAxiom name=")" org.eventb.core.label="axm3" org.eventb.core.predicate="R⊆U" org.eventb.core.source="/04_pred1/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.axiom#axm2" org.eventb.core.theorem="false"/>
+    <org.eventb.core.scAxiom name="*" org.eventb.core.label="axm4" org.eventb.core.predicate="S1⊆U" org.eventb.core.source="/04_pred1/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.axiom#axm3" org.eventb.core.theorem="false"/>
+    <org.eventb.core.scAxiom name="+" org.eventb.core.label="axm5" org.eventb.core.predicate="S2⊆U" org.eventb.core.source="/04_pred1/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.axiom#axm4" org.eventb.core.theorem="false"/>
+    <org.eventb.core.scAxiom name="," org.eventb.core.label="axm6" org.eventb.core.predicate="S3⊆U" org.eventb.core.source="/04_pred1/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.axiom#axm5" org.eventb.core.theorem="false"/>
+    <org.eventb.core.scAxiom name="-" org.eventb.core.label="axm7" org.eventb.core.predicate="a∈U" org.eventb.core.source="/04_pred1/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.axiom#axm6" org.eventb.core.theorem="false"/>
+    <org.eventb.core.scAxiom name="." org.eventb.core.label="thm" org.eventb.core.predicate="(∀x⦂U,y⦂U·x∈P∧y∈Q⇒(∃z⦂U·z∈R∧x∈S1∧y∈S2∧z∈S3))∧(∀x⦂U·x∈Q∨x∈R)∧a∈P∧(∀y⦂U·y∈R⇒(∃z⦂U·z∈Q∧a∈S1∧y∈S2∧z∈S3))⇒(∃x⦂U·∀y⦂U·∃z⦂U·x∈S1∧y∈S2∧z∈S3)" org.eventb.core.source="/04_pred1/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.axiom#axm7" org.eventb.core.theorem="true"/>
+    <org.eventb.core.scConstant name="P" org.eventb.core.source="/04_pred1/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.constant#(" org.eventb.core.type="ℙ(U)"/>
+    <org.eventb.core.scConstant name="Q" org.eventb.core.source="/04_pred1/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.constant#cst1" org.eventb.core.type="ℙ(U)"/>
+    <org.eventb.core.scConstant name="R" org.eventb.core.source="/04_pred1/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.constant#cst2" org.eventb.core.type="ℙ(U)"/>
+    <org.eventb.core.scCarrierSet name="U" org.eventb.core.source="/04_pred1/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.carrierSet#'" org.eventb.core.type="ℙ(U)"/>
+    <org.eventb.core.scConstant name="a" org.eventb.core.source="/04_pred1/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.constant#cst6" org.eventb.core.type="U"/>
+    <org.eventb.core.scConstant name="S1" org.eventb.core.source="/04_pred1/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.constant#cst3" org.eventb.core.type="ℙ(U)"/>
+    <org.eventb.core.scConstant name="S2" org.eventb.core.source="/04_pred1/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.constant#cst4" org.eventb.core.type="ℙ(U)"/>
+    <org.eventb.core.scConstant name="S3" org.eventb.core.source="/04_pred1/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.constant#cst5" org.eventb.core.type="ℙ(U)"/>
+</org.eventb.core.scContextFile>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<org.eventb.core.poFile org.eventb.core.poStamp="0">
-<org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.poStamp="0">
-<org.eventb.core.poIdentifier name="Accounts" org.eventb.core.type="ℙ(Accounts)"/>
-<org.eventb.core.poIdentifier name="People" org.eventb.core.type="ℙ(People)"/>
-<org.eventb.core.poIdentifier name="MAX" org.eventb.core.type="ℤ"/>
-<org.eventb.core.poPredicate name="Accountt" org.eventb.core.predicate="MAX&gt;0" org.eventb.core.source="/basic01/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#*"/>
-<org.eventb.core.poIdentifier name="Trans" org.eventb.core.type="ℙ(Trans)"/>
-</org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/basic01/c1.bpo|org.eventb.core.poFile#c1|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="0"/>
+<org.eventb.core.poFile org.eventb.core.poStamp="1">
+    <org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.poStamp="1">
+        <org.eventb.core.poIdentifier name="People" org.eventb.core.type="ℙ(People)"/>
+        <org.eventb.core.poIdentifier name="Accounts" org.eventb.core.type="ℙ(Accounts)"/>
+        <org.eventb.core.poIdentifier name="MAX" org.eventb.core.type="ℤ"/>
+        <org.eventb.core.poPredicate name="Accountt" org.eventb.core.predicate="MAX&gt;0" org.eventb.core.source="/basic01/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#*"/>
+        <org.eventb.core.poIdentifier name="Trans" org.eventb.core.type="ℙ(Trans)"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/basic01/c1.bpo|org.eventb.core.poFile#c1|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="1"/>
 </org.eventb.core.poFile>
